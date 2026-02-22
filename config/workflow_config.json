@@ -1,0 +1,9 @@
+{
+  "maxIterations": 3,
+  "minWords": 1500,
+  "maxWords": 2000,
+  "targetAudience": "C-Suite Executives (CTOs, CDOs, Chief Consultants)",
+  "minSources": 10,
+  "framework": "AURANOM - Vertical Multi-Agent Systems",
+  "isoStandards": "ISO 42001, 27001, 20700, 21500"
+}
