@@ -31,7 +31,7 @@
     "Poor readability or high AI detection score",
     "Content not in English"
   ],
-  "audit_criteria": [
+  "quality_criteria": [
     "Are all links and sources valid and practice-relevant?",
     "Are all quotes correct and meaningful in a business context?",
     "Are there signs of hallucinations or unsubstantiated claims?",
