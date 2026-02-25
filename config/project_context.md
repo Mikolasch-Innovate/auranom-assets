@@ -1,4 +1,4 @@
-# Project Context: DBA Project "Autonomous Consulting Intelligence (ACI)"
+# DBA Scholar-Practitioner's "AI Autonomy in Management Consulting 2026
 
 **This document contains project-specific information that should be stored in Manus Project Instructions.**
 
