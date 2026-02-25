@@ -1,9 +1,32 @@
 {
-  "maxIterations": 3,
-  "minWords": 1500,
-  "maxWords": 2000,
-  "targetAudience": "C-Suite Executives (CTOs, CDOs, Chief Consultants)",
-  "minSources": 10,
-  "framework": "AURANOM - Vertical Multi-Agent Systems",
-  "isoStandards": "ISO 42001, 27001, 20700, 21500"
+  "project": {
+    "title": "AURANOM - Vertical Multi-Agent Systems",
+    "subtitle": "ISO 42001 · ISO 27001 · ISO 20700 · ISO 21500"
+  },
+  "content": {
+    "article_type": "academic",
+    "min_words": 1500,
+    "max_words": 2000,
+    "min_sources": 10,
+    "target_audience": "C-Suite Executives (CTOs, CDOs, Chief Consultants)",
+    "readability_target": {
+      "flesch_min": 50,
+      "flesch_max": 60
+    }
+  },
+  "quality_check": {
+    "ai_detection_threshold": 80,
+    "max_qc_iterations": 2
+  },
+  "content_creation": {
+    "max_iterations": 2
+  },
+  "schedule": {
+    "weekly_trigger_day": "monday",
+    "weekly_trigger_time": "08:00",
+    "weekly_trigger_timezone": "Europe/Vienna"
+  },
+  "notifications": {
+    "admin_email": "christian.mikolasch@gmail.com"
+  }
 }
