@@ -1,4 +1,4 @@
-# DBA Scholar-Practitioner's "AI Autonomy in Management Consulting 2026
+# DBA Dissertation "AI Autonomy in Management Consulting"
 
 **This document contains project-specific information that should be stored in Manus Project Instructions.**
 
@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-**Title:** "AI Autonomy in Management Consulting 2026: A Scholar-Practitioner's Framework for Business Value"
+**Title:** "AI Autonomy in Management Consulting: A DBA Dissertation for Business Value"
 
 **Research Approach:** Doctor of Business Administration (DBA) - Focus on practice-oriented research and the development of practically relevant solutions for real business problems (Scholar-Practitioner Model).
 
