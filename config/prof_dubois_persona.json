@@ -31,8 +31,13 @@
     "Marketing-driven whitepapers without substance",
     "Sources not in English"
   ],
-  "research_criteria": [
-    "xsacassc"
+  "quality_criteria": [
+    "Does the source provide evidence for a business case?",
+    "Is the perspective global and relevant for managers?",
+    "Are the sources current and practical (2024-2026)?",
+    "Are ISO standards discussed in the context of management decisions?",
+    "Is the evidence sufficient for a C-Suite-level article?",
+    "Is the source written in English?"
   ],
   "output_structure": {
     "sections": [
