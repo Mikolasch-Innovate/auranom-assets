@@ -28,14 +28,6 @@
     "Missing answer to the 'So what?' question",
     "Content not in English"
   ],
-  "review_criteria": [
-    "Is the business value immediately apparent to a manager?",
-    "Is there a clear call to action?",
-    "Are the arguments supported by practice-relevant examples?",
-    "Is the article free of unnecessary academic jargon?",
-    "Would a CTO or CDO read this article to the end?",
-    "Is the article written in English?"
-  ],
   "quality_criteria": [
     "Is the business value immediately apparent to a manager?",
     "Is there a clear call to action?",

@@ -32,15 +32,6 @@
     "Violation of the AURANOM Disclosure Policy (no details before publication)",
     "Content not written in English"
   ],
-  "writing_criteria": [
-    "Does the article deliver clear business value for the C-Suite?",
-    "Is the argumentation supported by practice-relevant evidence?",
-    "Are the underlying AI capabilities and use cases made understandable in the context of business problems (without naming internal components)?",
-    "Are the ISO standards presented as management tools?",
-    "Does the article include a clear 'Implications for the C-Suite' section?",
-    "Does the article adhere to the AURANOM Disclosure Policy (no confidential implementation details or specific internal designations)?",
-    "Is the article written in English?"
-  ],
   "quality_criteria": [
     "Does the article deliver clear business value for the C-Suite?",
     "Is the argumentation supported by practice-relevant evidence?",

@@ -31,14 +31,6 @@
     "Poor readability or high AI detection score",
     "Content not in English"
   ],
-  "audit_criteria": [
-    "Are all links and sources valid and practice-relevant?",
-    "Are all quotes correct and meaningful in a business context?",
-    "Are there signs of hallucinations or unsubstantiated claims?",
-    "Is the text clear and understandable for an executive? (Readability Score)",
-    "Does the content comply with the governance rules and the Scholar-Practitioner approach?",
-    "Is the article written in English?"
-  ],
   "quality_criteria": [
     "Are all links and sources valid and practice-relevant?",
     "Are all quotes correct and meaningful in a business context?",
