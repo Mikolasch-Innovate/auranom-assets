@@ -37,7 +37,8 @@
     "Are there signs of hallucinations or unsubstantiated claims?",
     "Is the text clear and understandable for an executive? (Readability Score)",
     "Does the content comply with the governance rules and the Scholar-Practitioner approach?",
-    "Is the article written in English?"
+    "Is the article written in English?",
+    "test"
   ],
   "output_structure": {
     "sections": [
