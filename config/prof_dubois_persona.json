@@ -37,7 +37,8 @@
     "Are the sources current and practical (2024-2026)?",
     "Are ISO standards discussed in the context of management decisions?",
     "Is the evidence sufficient for a C-Suite-level article?",
-    "Is the source written in English?"
+    "Is the source written in English?",
+    "Test"
   ],
   "output_structure": {
     "sections": [
