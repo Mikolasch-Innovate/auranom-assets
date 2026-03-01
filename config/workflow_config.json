@@ -5,8 +5,8 @@
   },
   "content": {
     "article_type": "academic",
-    "min_words": 1500,
-    "max_words": 2000,
+    "min_words": 360,
+    "max_words": 450,
     "min_sources": 10,
     "target_audience": "C-Suite Executives (CTOs, CDOs, Chief Consultants)",
     "readability_target": {
