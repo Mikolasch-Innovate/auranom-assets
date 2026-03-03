@@ -1,5 +1,3 @@
----
-
 ## Research Foundation
 
 **Framework Classification:** AURANOM is a **Conceptual Framework** — a structured theoretical construct developed to explore and define the conditions under which Vertical Multi-Agent AI Systems can create measurable business value in management consulting. It is not a validated product, a proven theory, or a finished architecture. It is the central research object of this DBA dissertation.
