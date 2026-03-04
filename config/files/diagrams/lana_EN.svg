@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1800 1900" width="1800" height="1900">
+  <!-- White background -->
+  <rect x="-100" y="-100" width="1800" height="1900" fill="white"/>
+  
+  <!-- Title -->
+  <text x="750" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    LANA Interface Diagram V08
+  </text>
+  <text x="750" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666">
+    Language Analysis for Agent Control + Input Guard
+  </text>
+  
+  <!-- E0-E2 (top left, dashed, faded) +100px -->
+  <rect x="50" y="250" width="500" height="100" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E0-E2: Governance
+  </text>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E0: Director | E1: System &amp; Process Agent
+  </text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E2: Agent Governance
+  </text>
+  
+  <!-- Arrow E0-E2 → E3-E9 -->
+  <line x1="300" y1="350" x2="300" y2="400" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E3-E9 (centre left, dashed, faded) +100px -->
+  <rect x="50" y="400" width="500" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E3-E9: Process Configuration
+  </text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    (ACI-controlled, not directly influenced by LANA)
+  </text>
+  <text x="300" y="480" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E3: Process Orchestration Agent
+  </text>
+  <text x="300" y="500" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E4-E9: Phases, Steps, Methodology, Design Elements
+  </text>
+  
+  <!-- Arrow E3-E9 → E10-E11 -->
+  <line x1="300" y1="520" x2="300" y2="570" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E10-E11: Execution +100px -->
+  <rect x="50" y="570" width="500" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="300" y="605" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    E10-E11: EXECUTION (Team)
+  </text>
+  <text x="300" y="630" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    OUTPUT: Action
+  </text>
+  <text x="70" y="655" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E10: Tasks (Escalation to Senior Agent)
+  </text>
+  <text x="70" y="678" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E11: QC (Quality Assurance of the response)
+  </text>
+  <text x="300" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    → Empathetic, solution-oriented response
+  </text>
+  
+  <!-- Arrow E10-E11 → E12 -->
+  <line x1="300" y1="710" x2="300" y2="760" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowpurple)"/>
+  
+  <!-- E12: Client Interaction (bottom) +100px -->
+  <rect x="50" y="760" width="500" height="140" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="8"/>
+  <text x="300" y="795" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    E12: CLIENT INTERACTION
+  </text>
+  <text x="300" y="820" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    INPUT: Audio | OUTPUT: Response
+  </text>
+  <text x="70" y="845" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • INPUT: User speech (MP3, WAV)
+  </text>
+  <text x="70" y="868" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • OUTPUT: Empathische Antwort an Clients
+  </text>
+  <text x="300" y="890" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Example: "That is great help"
+  </text>
+  
+  <!-- LANA Box (Centre, enclosing) -->
+  <rect x="700" y="150" width="550" height="980" fill="#e3f2fd" stroke="#1976d2" stroke-width="4" rx="12"/>
+  <text x="975" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    LANA (4 Modules)
+  </text>
+  
+  <!-- Arrow E12 → Module 1 (STT bottom) -->
+  <line x1="550" y1="910" x2="730" y2="910" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="620" y="905" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">
+    Audio stream
+  </text>
+  
+  <!-- Module 1: Speech-to-Text (STT) - BOTTOM (y=850, height=130) -->
+  <rect x="730" y="850" width="490" height="130" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="8"/>
+  <text x="975" y="885" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    1. SPEECH-TO-TEXT (STT)
+  </text>
+  <text x="750" y="910" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Technology:</tspan> OpenAI Whisper
+  </text>
+  <text x="750" y="933" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Input:</tspan> Audio file
+  </text>
+  <text x="750" y="956" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f57c00">
+    → Output: Transcribed text
+  </text>
+  
+  <!-- Arrow Module 1 → Module 2 (upward) -->
+  <line x1="975" y1="850" x2="975" y2="810" stroke="#f57c00" stroke-width="3" marker-end="url(#arroworange)"/>
+  
+  <!-- Module 2: Intent Analysis (y=670, height=130) -->
+  <rect x="730" y="670" width="490" height="130" fill="#fff9c4" stroke="#f57f17" stroke-width="3" rx="8"/>
+  <text x="975" y="705" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    2. INTENT ANALYSIS
+  </text>
+  <text x="750" y="730" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Technology:</tspan> Fine-tuned LLM (GPT-4)
+  </text>
+  <text x="750" y="753" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Input:</tspan> Transcribed text
+  </text>
+  <text x="750" y="776" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f57f17">
+    → Output: Intent = "complaint"
+  </text>
+  
+  <!-- Arrow Module 2 → Module 3 (upward) -->
+  <line x1="975" y1="670" x2="975" y2="630" stroke="#f57f17" stroke-width="3" marker-end="url(#arrowyellow)"/>
+  
+  <!-- Module 3: Multimodal Sentiment Analysis (y=450, height=170) -->
+  <rect x="730" y="450" width="490" height="170" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="975" y="485" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    3. SENTIMENT ANALYSIS
+  </text>
+  <text x="975" y="507" font-family="Arial, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#666">
+    (Text + Audio → Sarcasm Detection)
+  </text>
+  <text x="750" y="532" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Text: Sentiment classification (BERT)
+  </text>
+  <text x="750" y="555" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Audio: Pitch, volume, speed
+  </text>
+  <text x="750" y="578" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Synthesis: Text (40%) + Audio (60%)
+  </text>
+  <text x="750" y="606" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7b1fa2">
+    → Output: Sentiment = "frustrated"
+  </text>
+  
+  <!-- Arrow Module 3 → Module 4 (upward) -->
+  <line x1="975" y1="450" x2="975" y2="410" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowpurple2)"/>
+  
+  <!-- Module 4: Actionable Trigger Generation - TOP (y=220, height=180) -->
+  <rect x="730" y="220" width="490" height="180" fill="#ffebee" stroke="#d32f2f" stroke-width="3" rx="8"/>
+  <text x="975" y="255" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#d32f2f">
+    4. ACTIONABLE TRIGGER
+  </text>
+  <text x="750" y="280" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Input:</tspan> Intent + Sentiment
+  </text>
+  <text x="750" y="303" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Logic:</tspan> Rule engine combined
+  </text>
+  <text x="750" y="331" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d32f2f">
+    → Output: Actionable Trigger (JSON)
+  </text>
+  <text x="750" y="354" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Urgency: "high"
+  </text>
+  <text x="750" y="377" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Action: "ESCALATE_TO_SENIOR_AGENT"
+  </text>
+  
+  <!-- Arrow Module 4 → Input Guard -->
+  <line x1="975" y1="400" x2="975" y2="450" stroke="#d32f2f" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="1000" y="430" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">
+    User Input
+  </text>
+  
+  <!-- Input Guard (G-EE Service 10) -->
+  <rect x="730" y="450" width="490" height="120" fill="#ffebee" stroke="#d32f2f" stroke-width="3" rx="8"/>
+  <text x="975" y="485" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#d32f2f">
+    INPUT GUARD (G-EE Service 10)
+  </text>
+  <text x="750" y="510" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Input:</tspan> User Input + LANA Analysis (Intent, Sentiment, Entities)
+  </text>
+  <text x="750" y="533" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Validation:</tspan> Content Moderation • Prompt Injection • Jailbreak • Data Access
+  </text>
+  <text x="750" y="556" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d32f2f">
+    → Output: APPROVED / BLOCKED / ESCALATED
+  </text>
+  
+  <!-- Arrow Input Guard → E10-E11 -->
+  <line x1="730" y1="510" x2="550" y2="640" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="620" y="575" font-family="Arial, sans-serif" font-size="12" fill="#1976d2" transform="rotate(-60, 620, 575)">
+    Validated Trigger
+  </text>
+  
+  <!-- Right side: Connections -->
+  <rect x="1300" y="400" width="380" height="250" fill="#fff9e6" stroke="#ff9800" stroke-width="3" rx="8"/>
+  <text x="1490" y="435" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff9800">
+    CONNECTIONS
+  </text>
+  
+  <!-- G-EE -->
+  <rect x="1320" y="460" width="340" height="80" fill="#ffe0b2" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="1490" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ff9800">
+    G-EE (Control)
+  </text>
+  <text x="1340" y="515" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Receives Actionable Trigger from LANA
+  </text>
+  <text x="1340" y="532" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    → Controls agents based on triggers
+  </text>
+  
+  <!-- FEGR -->
+  <rect x="1320" y="560" width="340" height="70" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" rx="5"/>
+  <text x="1490" y="590" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0288d1">
+    FEGR (Visual)
+  </text>
+  <text x="1340" y="615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Supplements LANA with visual analysis
+  </text>
+  
+  <!-- Arrows LANA → Connections -->
+  <line x1="1250" y1="500" x2="1320" y2="500" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1250" y1="595" x2="1320" y2="595" stroke="#0288d1" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Legend -->
+  <rect x="50" y="1550" width="1200" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="650" y="1580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Legend
+  </text>
+  <line x1="70" y1="1610" x2="120" y2="1610" stroke="#388e3c" stroke-width="3"/>
+  <text x="130" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Input (E12 → LANA)
+  </text>
+  <line x1="280" y1="1610" x2="330" y2="1610" stroke="#1976d2" stroke-width="3"/>
+  <text x="340" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Output (LANA → E10-E11)
+  </text>
+  <line x1="520" y1="1610" x2="570" y2="1610" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="580" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Connections (G-EE, FEGR)
+  </text>
+  <line x1="70" y1="1635" x2="120" y2="1635" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="130" y="1640" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Governance (E0-E2) / Process (E3-E9)
+  </text>
+  <rect x="380" y="1620" width="120" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="440" y="1638" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1976d2">
+    LANA System
+  </text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowgray" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#388e3c"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f57c00"/>
+    </marker>
+    <marker id="arrowyellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f57f17"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arrowpurple2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2"/>
+    </marker>
+  </defs>
+</svg>

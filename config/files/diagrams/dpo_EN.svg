@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1150">
+  <!-- White background -->
+  <rect width="1600" height="1150" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="800" y="140" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a237e">
+    DPO - Dual-Process-Orchestration
+  </text>
+  <text x="800" y="170" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">
+    1 = Orchestration | 2a = Sales Process (ISO 9001) | 2b = Consulting Process (ISO 20700)
+  </text>
+
+  <!-- 1. Orchestration (top, central) -->
+  <rect x="500" y="220" width="600" height="120" fill="#fff9e6" stroke="#f57c00" stroke-width="4" rx="10"/>
+  <text x="800" y="255" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    1. ORCHESTRATION
+  </text>
+  <text x="800" y="285" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    • Coordination of both processes (Sales + Consulting)
+  </text>
+  <text x="800" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    • Dual-Standard Compliance (ISO 9001 + ISO 20700)
+  </text>
+  <text x="800" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    • Escalation Management
+  </text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2" />
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#388e3c" />
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d32f2f" />
+    </marker>
+  </defs>
+
+  <!-- Arrows from Orchestration to Processes -->
+  <line x1="600" y1="340" x2="380" y2="400" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="460" y="560" font-family="Arial, sans-serif" font-size="12" fill="#1976d2" font-weight="bold">
+    Coordination
+  </text>
+
+  <line x1="1000" y1="340" x2="1220" y2="400" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="1140" y="560" font-family="Arial, sans-serif" font-size="12" fill="#1976d2" font-weight="bold">
+    Coordination
+  </text>
+
+  <!-- 2a. Sales Process (left) - HIGHER -->
+  <rect x="50" y="420" width="650" height="550" fill="#e3f2fd" stroke="#1976d2" stroke-width="4" rx="10"/>
+  <text x="375" y="560" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    2a. SALES PROCESS (ISO 9001)
+  </text>
+  <text x="375" y="685" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+    Transactional, standardised, repeatable
+  </text>
+
+  <!-- Phase 1: Lead Generation -->
+  <rect x="80" y="510" width="590" height="90" fill="#fff" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="375" y="540" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    Phase 1: Lead Generation
+  </text>
+  <text x="375" y="565" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Identification and qualification of potential clients
+  </text>
+  <text x="375" y="685" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Output: Qualified Leads
+  </text>
+
+  <!-- Arrow -->
+  <line x1="375" y1="600" x2="375" y2="630" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+
+  <!-- Phase 2: Proposal & Negotiation -->
+  <rect x="80" y="630" width="590" height="90" fill="#fff" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="375" y="660" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    Phase 2: Proposal &amp; Negotiation
+  </text>
+  <text x="375" y="685" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Proposal creation and negotiation
+  </text>
+  <text x="375" y="805" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Output: Contract offer
+  </text>
+
+  <!-- Arrow -->
+  <line x1="375" y1="720" x2="375" y2="750" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+
+  <!-- Phase 3: Closing & Onboarding -->
+  <rect x="80" y="750" width="590" height="90" fill="#fff" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="375" y="780" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    Phase 3: Closing &amp; Onboarding
+  </text>
+  <text x="375" y="805" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Contract closure and client handoff
+  </text>
+  <text x="375" y="825" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
+    Output: Context Package for Consulting
+  </text>
+
+  <!-- Handoff Sales → Consulting - MORE SPACING -->
+  <line x1="700" y1="795" x2="900" y2="795" stroke="#388e3c" stroke-width="4" marker-end="url(#arrowgreen)"/>
+  <text x="800" y="780" font-family="Arial, sans-serif" font-size="14" fill="#388e3c" font-weight="bold">
+    Context Package
+  </text>
+  <text x="800" y="920" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">
+    (Client info, Expectations, Scope)
+  </text>
+
+  <!-- 2b. Consulting Process (right) - HIGHER -->
+  <rect x="900" y="420" width="650" height="550" fill="#e8f5e9" stroke="#388e3c" stroke-width="4" rx="10"/>
+  <text x="1225" y="560" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    2b. CONSULTING PROCESS (ISO 20700)
+  </text>
+  <text x="1225" y="685" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+    Knowledge-based, individual, creative
+  </text>
+
+  <!-- Phase 1: Contracting -->
+  <rect x="930" y="510" width="590" height="70" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1225" y="535" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Phase 1: Contracting
+  </text>
+  <text x="1225" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Project definition, scope definition, resource planning
+  </text>
+
+  <!-- Arrow -->
+  <line x1="1225" y1="580" x2="1225" y2="600" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+
+  <!-- Phase 2: Analysis & Strategy -->
+  <rect x="930" y="600" width="590" height="70" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1225" y="625" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Phase 2: Analysis &amp; Strategy
+  </text>
+  <text x="1225" y="650" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    As-is analysis, strategy development, solution design
+  </text>
+
+  <!-- Arrow -->
+  <line x1="1225" y1="670" x2="1225" y2="690" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+
+  <!-- Phase 3: Implementation -->
+  <rect x="930" y="690" width="590" height="70" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1225" y="715" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Phase 3: Implementation
+  </text>
+  <text x="1225" y="740" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Implementation, Change Management, Project management
+  </text>
+
+  <!-- Arrow -->
+  <line x1="1225" y1="760" x2="1225" y2="780" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+
+  <!-- Phase 4: Quality Assurance -->
+  <rect x="930" y="780" width="590" height="70" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1225" y="805" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Phase 4: Quality Assurance
+  </text>
+  <text x="1225" y="830" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Quality Assurance, Validation, Compliance Check
+  </text>
+
+  <!-- Arrow -->
+  <line x1="1225" y1="850" x2="1225" y2="870" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+
+  <!-- Phase 5: Closure -->
+  <rect x="930" y="870" width="590" height="70" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1225" y="895" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Phase 5: Closure
+  </text>
+  <text x="1225" y="920" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Project Closure, Lessons Learned, Upselling identification
+  </text>
+
+  <!-- Handoff Consulting → Sales (Upselling) -->
+  <path d="M 930 905 Q 800 980, 375 710" stroke="#d32f2f" stroke-width="4" fill="none" stroke-dasharray="10,5" marker-end="url(#arrowred)"/>
+  <text x="650" y="1000" font-family="Arial, sans-serif" font-size="14" fill="#d32f2f" font-weight="bold">
+    Opportunity-Paket (Upselling)
+  </text>
+  <text x="650" y="920" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">
+    (New needs, estimated value)
+  </text>
+
+  <!-- Legend -->
+  <rect x="50" y="1000" width="1500" height="40" fill="#f5f5f5" stroke="#999" stroke-width="1" rx="5"/>
+  <line x1="80" y1="1020" x2="120" y2="1020" stroke="#388e3c" stroke-width="4" marker-end="url(#arrowgreen)"/>
+  <text x="130" y="1025" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Handoff Sales → Consulting (Context Package)
+  </text>
+  
+  <line x1="500" y1="1020" x2="540" y2="1020" stroke="#d32f2f" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowred)"/>
+  <text x="550" y="1025" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Handoff Consulting → Sales (Opportunity Package, Upselling)
+  </text>
+
+  <line x1="1100" y1="1020" x2="1140" y2="1020" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="1150" y="1025" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Coordination through Orchestration
+  </text>
+</svg>

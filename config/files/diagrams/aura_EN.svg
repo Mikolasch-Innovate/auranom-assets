@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1800 1900" width="1800" height="1900">
+  <!-- White background -->
+  <rect x="-100" y="-100" width="1800" height="1900" fill="white"/>
+  
+  <!-- Title -->
+  <text x="750" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AURA Interface Diagram
+  </text>
+  <text x="750" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666">
+    Avatar System for Agent Control
+  </text>
+  
+  <!-- E0-E2 (top left, dashed, faded) -->
+  <rect x="50" y="250" width="500" height="100" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E0-E2: Governance
+  </text>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E0: Director | E1: System &amp; Process Agent
+  </text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E2: Agent Governance
+  </text>
+  
+  <!-- Arrow E0-E2 → E3-E9 -->
+  <line x1="300" y1="350" x2="300" y2="400" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E3-E9 (centre left, dashed, faded) -->
+  <rect x="50" y="400" width="500" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E3-E9: Process Configuration
+  </text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    (ACI-gesteuert, AMAS-orchestriert)
+  </text>
+  <text x="300" y="480" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E3: Process Orchestration Agent
+  </text>
+  <text x="300" y="500" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E4-E9: Phases, Steps, Methodology, Design Elements
+  </text>
+  
+  <!-- Arrow E3-E9 → E10-E11 -->
+  <line x1="300" y1="520" x2="300" y2="570" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E10-E11: Execution -->
+  <rect x="50" y="570" width="500" height="140" fill="#e1f5fe" stroke="#0277bd" stroke-width="3" rx="8"/>
+  <text x="300" y="605" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#0277bd">
+    E10-E11: EXECUTION (Team)
+  </text>
+  <text x="300" y="630" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    OUTPUT: Agent response
+  </text>
+  <text x="70" y="655" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E10: Tasks (generate response)
+  </text>
+  <text x="70" y="678" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E11: QC (Quality Assurance of the response)
+  </text>
+  <text x="300" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0277bd">
+    → Textual response for AURA
+  </text>
+  
+  <!-- No direct arrow E10-E11 → E12, as AURA is in between -->
+  
+  <!-- E12: Client Interaction (bottom) -->
+  <rect x="50" y="760" width="500" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="300" y="795" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    E12: CLIENT INTERACTION
+  </text>
+  <text x="300" y="820" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    OUTPUT: Avatar display
+  </text>
+  <text x="70" y="845" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • OUTPUT: Multimodal Avatar (speech, facial expression, gesture)
+  </text>
+  <text x="70" y="868" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Client sees and hears AURA Avatar
+  </text>
+  <text x="300" y="890" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    Example: Avatar says "The project is going well" (smiling)
+  </text>
+  
+  <!-- AURA Box (Centre, enclosing) -->
+  <rect x="700" y="150" width="550" height="980" fill="#e8f5e9" stroke="#2e7d32" stroke-width="4" rx="12"/>
+  <text x="975" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+    AURA (3 Modules)
+  </text>
+  
+  <!-- Arrow E10-E11 → Module 1 (bottom) -->
+  <line x1="550" y1="640" x2="730" y2="910" stroke="#0277bd" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="620" y="770" font-family="Arial, sans-serif" font-size="12" fill="#0277bd" transform="rotate(-50, 620, 770)">
+    Response text
+  </text>
+  
+  <!-- Module 1: Text-to-Speech (TTS) - BOTTOM (y=820, height=180) -->
+  <rect x="730" y="820" width="490" height="180" fill="#fff3e0" stroke="#f57f17" stroke-width="3" rx="8"/>
+  <text x="975" y="855" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    1. TEXT-TO-SPEECH (TTS)
+  </text>
+  <text x="750" y="880" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Input:</tspan> Textual response from E10-E11
+  </text>
+  <text x="750" y="903" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Technology:</tspan> ElevenLabs, Google TTS
+  </text>
+  <text x="750" y="926" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Emotional Voice:</tspan> Joyful, serious, empathetic
+  </text>
+  <text x="750" y="954" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f57f17">
+    → Output: Audio stream
+  </text>
+  <text x="750" y="977" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Example: "The project is going well" (friendly voice)
+  </text>
+  
+  <!-- Arrow Module 1 → Module 2 (upward) -->
+  <line x1="975" y1="820" x2="975" y2="770" stroke="#f57f17" stroke-width="3" marker-end="url(#arrowyellow)"/>
+  
+  <!-- Module 2: Facial Expression Control (y=540, height=220) -->
+  <rect x="730" y="540" width="490" height="220" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="8"/>
+  <text x="975" y="575" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    2. FACIAL EXPRESSION CONTROL (FACS)
+  </text>
+  <text x="975" y="597" font-family="Arial, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#666">
+    (Facial Action Coding System)
+  </text>
+  <text x="750" y="622" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Lip synchronisation:</tspan> Viseme mapping (Phonemes → Lips)
+  </text>
+  <text x="750" y="645" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Emotional facial expressions:</tspan> Joy, worry, concentration
+  </text>
+  <text x="750" y="668" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Integration:</tspan> FEGR (Emotion detection)
+  </text>
+  <text x="750" y="696" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1976d2">
+    → Output: Facial animation
+  </text>
+  <text x="750" y="719" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Example: "Project going well" → Smile (Joy)
+  </text>
+  <text x="750" y="742" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Example: "We have a problem" → Frown (Concern)
+  </text>
+  
+  <!-- Arrow Module 2 → Module 3 (upward) -->
+  <line x1="975" y1="540" x2="975" y2="490" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue2)"/>
+  
+  <!-- Module 3: Gesture Control - TOP (y=220, height=260) -->
+  <rect x="730" y="220" width="490" height="260" fill="#fce4ec" stroke="#c2185b" stroke-width="3" rx="8"/>
+  <text x="975" y="255" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#c2185b">
+    3. GESTURE CONTROL (IK)
+  </text>
+  <text x="975" y="277" font-family="Arial, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#666">
+    (Inverse Kinematics)
+  </text>
+  <text x="750" y="302" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Posture:</tspan> Upright, relaxed, tense
+  </text>
+  <text x="750" y="325" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Hand gestures:</tspan> Pointing, explaining, emphasising
+  </text>
+  <text x="750" y="348" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Technology:</tspan> Motion Capture / procedurally generated
+  </text>
+  <text x="750" y="376" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c2185b">
+    → Output: Body animation
+  </text>
+  <text x="750" y="399" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Example: Explaining strategy → points at diagram
+  </text>
+  <text x="750" y="422" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Example: Emphasising a point → raises hand
+  </text>
+  <text x="750" y="450" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c2185b">
+    → Multimodal Synchronisation
+  </text>
+  <text x="750" y="473" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Speech + Facial expression + Gesture simultaneously
+  </text>
+  
+  <!-- Arrow Module 3 → E12 -->
+  <line x1="730" y1="350" x2="550" y2="830" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="620" y="585" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32" transform="rotate(-60, 620, 585)">
+    Avatar
+  </text>
+  
+  <!-- Right side: Connections -->
+  <rect x="1300" y="400" width="380" height="330" fill="#fff3e0" stroke="#f57f17" stroke-width="3" rx="8"/>
+  <text x="1490" y="435" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    CONNECTIONS
+  </text>
+  
+  <!-- LANA -->
+  <rect x="1320" y="460" width="340" height="70" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="1490" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    LANA (Language)
+  </text>
+  <text x="1340" y="515" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Provides Intent &amp; Sentiment for Context
+  </text>
+  
+  <!-- AMAS -->
+  <rect x="1320" y="550" width="340" height="70" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1490" y="580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    AMAS (Multi-Agent)
+  </text>
+  <text x="1340" y="605" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Orchestrates Agents (Orion, Taylor, Quinn)
+  </text>
+  
+  <!-- FEGR -->
+  <rect x="1320" y="640" width="340" height="70" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="5"/>
+  <text x="1490" y="670" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    FEGR (Visual)
+  </text>
+  <text x="1340" y="695" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Provides emotions for facial expression control
+  </text>
+  
+  <!-- Arrows AURA → Connections -->
+  <line x1="1250" y1="495" x2="1320" y2="495" stroke="#1976d2" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1250" y1="585" x2="1320" y2="585" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1250" y1="675" x2="1320" y2="675" stroke="#f57f17" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Legend -->
+  <rect x="50" y="1550" width="1200" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="650" y="1580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Legend
+  </text>
+  <line x1="70" y1="1610" x2="120" y2="1610" stroke="#0277bd" stroke-width="3"/>
+  <text x="130" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Input (E10-E11 → AURA)
+  </text>
+  <line x1="280" y1="1610" x2="330" y2="1610" stroke="#2e7d32" stroke-width="3"/>
+  <text x="340" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Output (AURA → E12)
+  </text>
+  <line x1="520" y1="1610" x2="570" y2="1610" stroke="#f57f17" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="580" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Connections (LANA, AMAS, FEGR)
+  </text>
+  <line x1="70" y1="1635" x2="120" y2="1635" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="130" y="1640" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Governance (E0-E2) / Process (E3-E9)
+  </text>
+  <rect x="380" y="1620" width="120" height="25" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="3"/>
+  <text x="440" y="1638" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2e7d32">
+    AURA System
+  </text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowgray" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0277bd"/>
+    </marker>
+    <marker id="arrowblue2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2"/>
+    </marker>
+    <marker id="arrowyellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f57f17"/>
+    </marker>
+  </defs>
+</svg>
