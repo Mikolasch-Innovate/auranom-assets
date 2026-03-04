@@ -51,8 +51,7 @@ These **five design elements** are a proprietary core innovation and typically i
 
 1.  **The ACI Decision Logic:** The specific two-stage logic for dynamically selecting the PM model and consulting method, executed by the specialised agents Strategic Agent (Orion) and Operational Agent.
 2.  **The Generation of the 5 Design Elements:** The concept of decomposing a consulting method into five concrete, machine-readable specifications that serve as binding instructions for executing agents.
-
-4.  **The Integration of the 9-Layer Hierarchy:** The mapping of the ACI decision logic onto a specific, nine-layer process hierarchy for precise control.
+3.  **The Integration of the 9-Layer Hierarchy:** The mapping of the ACI decision logic onto a specific, nine-layer process hierarchy for precise control.
 
 ---
 

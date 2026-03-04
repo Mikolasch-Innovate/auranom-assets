@@ -1,4 +1,4 @@
-# Technical Specification: IP 7 (SABEE)
+# Technical Specification: IP 6 (SABEE)
 
 **Date:** 16 November 2025
 **Version:** 1.0

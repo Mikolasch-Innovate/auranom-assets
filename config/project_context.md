@@ -150,8 +150,8 @@
 
 ## Asset Store — Documentation & Architecture Diagrams
 
-All technical documentation exists in bilingual form (DE original + EN translation).  
-See the full translation registry: [`config/files/asset_index.md`](files/asset_index.md)
+All technical documentation is available in English (EN). German (DE) originals are archived in `specs/archive/` and `diagrams/archive/` for traceability.  
+See the full asset registry: [`files/asset_index.md`](files/asset_index.md)
 
 ### Executive Summaries (EN)
 - [AMAS](files/specs/Executive_Summary_AMAS_EN.md) — Autonomous Multi-Agent System
