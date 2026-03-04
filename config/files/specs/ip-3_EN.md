@@ -1,4 +1,4 @@
-# Technical Specification: Privacy Preserving Learning System (PPLS)
+# Technical Specification: IP 3  (PPLS-Privacy Preserving Learning System)
 
 ## 1. Title of the Invention
 
