@@ -1,4 +1,4 @@
-# Technical Specification: Patent 8 (FEGR)
+# Technical Specification: IP 8 (FEGR)
 
 **Date:** 16 November 2025
 **Version:** 1.0
