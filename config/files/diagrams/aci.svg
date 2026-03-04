@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1700 1900" width="1700" height="1900">
+  <!-- Weißer Hintergrund -->
+  <rect x="-100" y="-100" width="1700" height="1900" fill="white"/>
+  
+  <!-- Titel -->
+  <text x="750" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    ACI Interface-Diagramm
+  </text>
+  <text x="750" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666">
+    Adaptive Consulting Intelligence (E0-E12)
+  </text>
+  
+  <!-- E0-E2 (oben, gestrichelt, blass) -->
+  <rect x="50" y="150" width="600" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="350" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#999">
+    E0-E2: Governance
+  </text>
+  <text x="350" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#999">
+    E0: Director | E1: Veritas | E2: Argus
+  </text>
+  <text x="350" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#999">
+    (Executive, System &amp; Prozesse, Agenten Governance)
+  </text>
+  
+  <!-- Pfeil E0-E2 → E3 -->
+  <line x1="350" y1="270" x2="350" y2="320" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E3: Orion (ohne Entscheidungslogik-Details) -->
+  <rect x="50" y="320" width="600" height="100" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="8"/>
+  <text x="350" y="360" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    E3: ORION
+  </text>
+  <text x="350" y="385" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Prozess-Orchestrierung
+  </text>
+  <text x="350" y="405" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    (nutzt ACI für Entscheidungen)
+  </text>
+  
+  <!-- Pfeil E3 → E4-E9 -->
+  <line x1="350" y1="420" x2="350" y2="470" stroke="#f57c00" stroke-width="3" marker-end="url(#arroworange)"/>
+  
+  <!-- E4-E9: Consulting-Projekt -->
+  <rect x="50" y="470" width="600" height="280" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="8"/>
+  <text x="350" y="505" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    E4-E9: CONSULTING-PROJEKT
+  </text>
+  <text x="350" y="530" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">
+    (Orion: E4-E7, Quinn: E8-E9)
+  </text>
+  <text x="70" y="560" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E4:</tspan> Phasen (z.B. Sprint 1, 2, 3)
+  </text>
+  <text x="70" y="583" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E5:</tspan> Meilensteine (z.B. MVP nach Sprint 3)
+  </text>
+  <text x="70" y="606" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E6:</tspan> Schritte (z.B. Sprint Planning, Daily Standups)
+  </text>
+  <text x="70" y="629" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E7:</tspan> Event-Design (z.B. Sprint Planning: 4h, Mo 9:00)
+  </text>
+  <text x="70" y="652" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E8:</tspan> Beratungs-Methodik (z.B. Strategieberatung)
+  </text>
+  <text x="70" y="675" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">E9:</tspan> Design-Elemente (5: Ziel, Tools, Rollen, Deliverables, KPIs)
+  </text>
+  <text x="350" y="710" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    → Vollständige Prozess-Konfiguration
+  </text>
+  
+  <!-- Pfeil E4-E9 → E10-E11 -->
+  <line x1="350" y1="750" x2="350" y2="800" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  
+  <!-- E10-E11: Ausführung -->
+  <rect x="50" y="800" width="600" height="100" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="350" y="835" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    E10-E11: AUSFÜHRUNG (Team)
+  </text>
+  <text x="350" y="860" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    E10: Tasks | E11: Ausführung &amp; QC
+  </text>
+  <text x="350" y="885" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    → Projekt wird ausgeführt
+  </text>
+  
+  <!-- Pfeil E10-E11 → E12 -->
+  <line x1="350" y1="900" x2="350" y2="950" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowpurple)"/>
+  
+  <!-- E12: Kundeninteraktion (unten) -->
+  <rect x="50" y="950" width="600" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="8"/>
+  <text x="350" y="985" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    E12: KUNDENINTERAKTION
+  </text>
+  
+  <!-- INPUT (oben in E12) -->
+  <rect x="70" y="1000" width="560" height="50" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="350" y="1023" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
+    INPUT: 22 Parameter (nach Verkauf)
+  </text>
+  <text x="350" y="1043" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    A. Projekt (6) | B. Team (4) | C. Kunden (4) | D. Risiko (3) | E. Compliance (5)
+  </text>
+  
+  <!-- OUTPUT (unten in E12) -->
+  <rect x="70" y="1065" width="560" height="50" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="350" y="1088" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
+    OUTPUT: Projektplan
+  </text>
+  <text x="350" y="1108" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Vollständige Prozess-Konfiguration bereit für Ausführung
+  </text>
+  
+  <!-- Pfeil E12 Input → E3 (seitlich links außen herum) -->
+  <path d="M 50 1025 L -50 1025 L -50 370 L 50 370" fill="none" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="-40" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#388e3c" transform="rotate(-90, -40, 700)">
+    Input: 22 Parameter
+  </text>
+  
+  <!-- ============ ACI BOX (nur rechte Seite) ============ -->
+  <rect x="750" y="280" width="550" height="850" fill="#fff9e6" stroke="#ff9800" stroke-width="4" rx="12"/>
+  <text x="1025" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff9800">
+    ACI (Adaptive Consulting Intelligence)
+  </text>
+  
+  <!-- 1. ENTSCHEIDUNGSLOGIK (oben rechts, in ACI) -->
+  <rect x="780" y="310" width="490" height="200" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="8"/>
+  <text x="1025" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    1. ENTSCHEIDUNGSLOGIK
+  </text>
+  <text x="1025" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    DUAL-PROZESS
+  </text>
+  <text x="800" y="395" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Schritt 1:</tspan> Scoring (Quantitativ)
+  </text>
+  <text x="800" y="418" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Gewichtung der 22 Parameter
+  </text>
+  <text x="800" y="441" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Schritt 2:</tspan> LLM-Analyse (Qualitativ)
+  </text>
+  <text x="800" y="464" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Kontextuelle Bewertung
+  </text>
+  <text x="1025" y="490" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57c00">
+    → PM-Modell gewählt (z.B. Scrum)
+  </text>
+  
+  <!-- 2. RAG3 Wissensdatenbank (Mitte rechts, in ACI) -->
+  <rect x="780" y="540" width="490" height="280" fill="#fff9c4" stroke="#f57f17" stroke-width="3" rx="8"/>
+  <text x="1025" y="575" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    2. RAG3: WISSENSDATENBANK
+  </text>
+  <text x="800" y="605" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • PM-Modelle (7): Scrum, Waterfall, Kanban, etc.
+  </text>
+  <text x="800" y="628" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Phasen pro PM-Modell
+  </text>
+  <text x="800" y="651" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Meilensteine
+  </text>
+  <text x="800" y="674" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Schritte
+  </text>
+  <text x="800" y="697" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Event-Templates
+  </text>
+  <text x="800" y="720" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Beratungsmethoden
+  </text>
+  <text x="800" y="743" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • Tools &amp; Case Studies
+  </text>
+  <text x="800" y="775" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    Gefilterte Abfragen bei E3-E9
+  </text>
+  <text x="800" y="795" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    (Filter: pm_modell, phase, schritt, methodik)
+  </text>
+  
+  <!-- 3. FEEDBACK-SCHLEIFE (unten rechts, in ACI) -->
+  <rect x="780" y="850" width="490" height="250" fill="#ffebee" stroke="#d32f2f" stroke-width="3" rx="8"/>
+  <text x="1025" y="885" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">
+    3. FEEDBACK-SCHLEIFE
+  </text>
+  <text x="800" y="915" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Schritt 1:</tspan> Präsentation an Kunde
+  </text>
+  <text x="800" y="938" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Projektplan wird vorgestellt
+  </text>
+  <text x="800" y="961" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Schritt 2:</tspan> Review &amp; Änderungen
+  </text>
+  <text x="800" y="984" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Kunde gibt Feedback
+  </text>
+  <text x="800" y="1012" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d32f2f">
+    → Neuer Input (22 Parameter angepasst)
+  </text>
+  <text x="800" y="1035" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Ganze Runde (E12 → E3 → ... → E12)
+  </text>
+  <text x="800" y="1063" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#388e3c">
+    <tspan font-weight="bold">Schritt 3:</tspan> Freigabe → Ausführung (E10-E11)
+  </text>
+  
+  <!-- Pfeile E3 ↔ ACI (Entscheidungslogik) -->
+  <line x1="650" y1="370" x2="780" y2="400" stroke="#f57c00" stroke-width="3" marker-end="url(#arroworange)"/>
+  <text x="700" y="365" font-family="Arial, sans-serif" font-size="12" fill="#f57c00">
+    22 Parameter
+  </text>
+  <line x1="780" y1="450" x2="650" y2="390" stroke="#f57c00" stroke-width="3" marker-end="url(#arroworange)"/>
+  <text x="700" y="440" font-family="Arial, sans-serif" font-size="12" fill="#f57c00">
+    PM-Modell
+  </text>
+  
+  <!-- Pfeile E4-E9 ↔ RAG3 -->
+  <line x1="650" y1="600" x2="780" y2="650" stroke="#f57f17" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="700" y="610" font-family="Arial, sans-serif" font-size="12" fill="#f57f17">
+    RAG3-Abfragen
+  </text>
+  <line x1="780" y1="700" x2="650" y2="650" stroke="#f57f17" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="700" y="690" font-family="Arial, sans-serif" font-size="12" fill="#f57f17">
+    Wissen
+  </text>
+  
+  <!-- Pfeil Feedback → E12 (zurück, gestrichelt) -->
+  <path d="M 780 975 L 720 975 L 720 1025 L 650 1025" fill="none" stroke="#d32f2f" stroke-width="3" stroke-dasharray="10,5" marker-end="url(#arrowred)"/>
+  <text x="680" y="1000" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">
+    Neuer Input
+  </text>
+  
+  <!-- Legende -->
+  <rect x="50" y="1180" width="1200" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="650" y="1210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Legende
+  </text>
+  <line x1="70" y1="1240" x2="120" y2="1240" stroke="#388e3c" stroke-width="3"/>
+  <text x="130" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Input (E12 → E3)
+  </text>
+  <line x1="280" y1="1240" x2="330" y2="1240" stroke="#f57c00" stroke-width="3"/>
+  <text x="340" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    E3 ↔ ACI (Entscheidungslogik)
+  </text>
+  <line x1="570" y1="1240" x2="620" y2="1240" stroke="#1976d2" stroke-width="3"/>
+  <text x="630" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Consulting-Projekt (E4-E9)
+  </text>
+  <line x1="850" y1="1240" x2="900" y2="1240" stroke="#7b1fa2" stroke-width="3"/>
+  <text x="910" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Ausführung (E10-E11)
+  </text>
+  <line x1="70" y1="1265" x2="120" y2="1265" stroke="#f57f17" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="130" y="1270" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    RAG3-Abfragen (gefiltert)
+  </text>
+  <line x1="320" y1="1265" x2="370" y2="1265" stroke="#d32f2f" stroke-width="3" stroke-dasharray="10,5"/>
+  <text x="380" y="1270" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Feedback (neuer Input, ganze Runde)
+  </text>
+  <rect x="620" y="1250" width="100" height="25" fill="#fff9e6" stroke="#ff9800" stroke-width="2" rx="3"/>
+  <text x="670" y="1268" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff9800">
+    ACI-System
+  </text>
+  <text x="750" y="1270" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    (nur rechte Seite: 3 Services)
+  </text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowgray" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f57c00"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#388e3c"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d32f2f"/>
+    </marker>
+  </defs>
+</svg>

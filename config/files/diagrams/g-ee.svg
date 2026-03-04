@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="2200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1565c0"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c2185b"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#388e3c"/>
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f57c00"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="700" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">G-EE/ARGUS Interface-Diagramm V12</text>
+  <text x="700" y="55" font-size="16" text-anchor="middle" fill="#666">E2: AGENTEN GOVERNANCE - Schnittstellen zu allen Ebenen</text>
+  
+  <!-- E0: EXECUTIVE -->
+  <rect x="50" y="80" width="500" height="60" fill="#fff3e0" stroke="#ff6f00" stroke-width="2" rx="6"/>
+  <text x="300" y="105" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E0: EXECUTIVE</text>
+  <text x="300" y="125" font-size="12" text-anchor="middle" fill="#555">Strategische Entscheidungen + Eskalation</text>
+  
+  <!-- E1: SYSTEM & PROZESSE GOVERNANCE -->
+  <rect x="50" y="160" width="500" height="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="6"/>
+  <text x="300" y="185" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E1: SYSTEM &amp; PROZESSE GOVERNANCE</text>
+  <text x="300" y="205" font-size="12" text-anchor="middle" fill="#555">Compliance + Prozess-Standards</text>
+  
+  <!-- E2: AGENTEN GOVERNANCE (G-EE/ARGUS) - ZENTRAL -->
+  <rect x="50" y="240" width="900" height="400" fill="#fce4ec" stroke="#c2185b" stroke-width="4" rx="8"/>
+  <text x="500" y="270" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">E2: AGENTEN GOVERNANCE (G-EE/ARGUS)</text>
+  <text x="500" y="295" font-size="14" text-anchor="middle" fill="#555">Meta-Ebene: Überwacht Agenten-Verhalten</text>
+  
+  <!-- 9 Services innerhalb E2 -->
+  <rect x="70" y="310" width="860" height="310" fill="#f8bbd0" stroke="#c2185b" stroke-width="2" rx="6"/>
+  <text x="500" y="335" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">9 Services</text>
+  
+  <!-- Service Grid (3x3) -->
+  <rect x="90" y="350" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="225" y="380" font-size="12" text-anchor="middle" fill="#333">1. Loop-Detection</text>
+  
+  <rect x="375" y="350" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="510" y="380" font-size="12" text-anchor="middle" fill="#333">2. Confidence-Management</text>
+  
+  <rect x="660" y="350" width="260" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="790" y="380" font-size="12" text-anchor="middle" fill="#333">3. Reward Hacking Detection</text>
+  
+  <rect x="90" y="415" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="225" y="445" font-size="12" text-anchor="middle" fill="#333">4. Reasoning Quality Check</text>
+  
+  <rect x="375" y="415" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="510" y="445" font-size="12" text-anchor="middle" fill="#333">5. Diversity Check</text>
+  
+  <rect x="660" y="415" width="260" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="790" y="445" font-size="12" text-anchor="middle" fill="#333">6. Sycophancy-Detection</text>
+  
+  <rect x="90" y="480" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="225" y="510" font-size="12" text-anchor="middle" fill="#333">7. Positive Reinforcement</text>
+  
+  <rect x="375" y="480" width="270" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="510" y="510" font-size="12" text-anchor="middle" fill="#333">8. Client Feedback Detection</text>
+  
+  <rect x="660" y="480" width="260" height="50" fill="#fff" stroke="#c2185b" stroke-width="1" rx="4"/>
+  <text x="790" y="510" font-size="12" text-anchor="middle" fill="#333">9. Grounding Check</text>
+  
+  <!-- Output Channels -->
+  <text x="500" y="565" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Output:</text>
+  <text x="500" y="585" font-size="11" text-anchor="middle" fill="#555">Qualitäts-Freigabe (OK/FAIL) • Eskalation • Korrekturen</text>
+  <text x="500" y="605" font-size="11" text-anchor="middle" fill="#555">Fehlerprotokoll • Audit-Trail</text>
+  
+  <!-- E3-E7: PROZESS-ORCHESTRIERUNG -->
+  <rect x="50" y="660" width="500" height="100" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="6"/>
+  <text x="300" y="685" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E3-E7: PROZESS-ORCHESTRIERUNG</text>
+  <text x="300" y="705" font-size="12" text-anchor="middle" fill="#555">E3: Dual-Prozess</text>
+  <text x="300" y="720" font-size="12" text-anchor="middle" fill="#555">E4: Phasen • E5: Meilensteine</text>
+  <text x="300" y="735" font-size="12" text-anchor="middle" fill="#555">E6: Schritte • E7: Event-Design</text>
+  
+  <!-- E8-E9: BERATUNGS-METHODIK -->
+  <rect x="50" y="780" width="500" height="80" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" rx="6"/>
+  <text x="300" y="805" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E8-E9: BERATUNGS-METHODIK</text>
+  <text x="300" y="825" font-size="12" text-anchor="middle" fill="#555">E8: Beratungs-Methodik</text>
+  <text x="300" y="845" font-size="12" text-anchor="middle" fill="#555">E9: Design-Elemente</text>
+  
+  <!-- E10-E11: TASK-MANAGEMENT -->
+  <rect x="50" y="880" width="500" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
+  <text x="300" y="905" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E10-E11: TASK-MANAGEMENT</text>
+  <text x="300" y="925" font-size="12" text-anchor="middle" fill="#555">E10: Tasks (Status-Tracking)</text>
+  <text x="300" y="945" font-size="12" text-anchor="middle" fill="#555">E11: Ausführung &amp; QC</text>
+  
+  <!-- E12: KUNDENINTERAKTION -->
+  <rect x="50" y="980" width="500" height="60" fill="#b2dfdb" stroke="#00796b" stroke-width="2" rx="6"/>
+  <text x="300" y="1005" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E12: KUNDENINTERAKTION</text>
+  <text x="300" y="1025" font-size="12" text-anchor="middle" fill="#555">STT, Pres, WB, TTS, CRM, PM, Analytics, Avatar</text>
+  
+  <!-- Event-Protokoll (25px rechts neben Ebenen, Höhe E3-E12) -->
+  <rect x="655" y="660" width="300" height="380" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="6"/>
+  <text x="805" y="690" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Event-Protokoll</text>
+  <text x="805" y="715" font-size="13" text-anchor="middle" fill="#555">Protokolliert Agenten-Aktionen</text>
+  <line x1="670" y1="730" x2="940" y2="730" stroke="#388e3c" stroke-width="1"/>
+  
+  <text x="805" y="755" font-size="12" text-anchor="middle" fill="#555">• E3-E7: Prozess-Entscheidungen</text>
+  <text x="805" y="775" font-size="12" text-anchor="middle" fill="#555">  (PM-Modell, Phasen, Meilensteine)</text>
+  
+  <text x="805" y="805" font-size="12" text-anchor="middle" fill="#555">• E8-E9: Beratungs-Methodik</text>
+  <text x="805" y="825" font-size="12" text-anchor="middle" fill="#555">  (Methodik-Auswahl, Design-Elemente)</text>
+  
+  <text x="805" y="855" font-size="12" text-anchor="middle" fill="#555">• E10: Tasks</text>
+  <text x="805" y="875" font-size="12" text-anchor="middle" fill="#555">  (Status-Änderungen, Assignments)</text>
+  
+  <text x="805" y="905" font-size="12" text-anchor="middle" fill="#555">• E11: Ausführung &amp; QC</text>
+  <text x="805" y="925" font-size="12" text-anchor="middle" fill="#555">  (Deliverables, Quality-Checks)</text>
+  
+  <text x="805" y="955" font-size="12" text-anchor="middle" fill="#555">• E12: Kundeninteraktion</text>
+  <text x="805" y="975" font-size="12" text-anchor="middle" fill="#555">  (STT, TTS, CRM, PM-Updates)</text>
+  
+  <line x1="670" y1="995" x2="940" y2="995" stroke="#388e3c" stroke-width="1"/>
+  <text x="805" y="1020" font-size="11" text-anchor="middle" fill="#555" font-style="italic">Vollständiger Audit-Trail</text>
+  
+  <!-- Fehlerprotokoll (über E2, rechts neben E0-E1) -->
+  <rect x="655" y="80" width="300" height="140" fill="#ffebee" stroke="#d32f2f" stroke-width="3" rx="6"/>
+  <text x="805" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Fehlerprotokoll</text>
+  <text x="805" y="135" font-size="13" text-anchor="middle" fill="#555">Dokumentation aller Probleme</text>
+  <text x="805" y="160" font-size="12" text-anchor="middle" fill="#555">• Governance-Fehler (G-EE)</text>
+  <text x="805" y="180" font-size="12" text-anchor="middle" fill="#555">• Compliance-Fehler (Veritas)</text>
+  <text x="805" y="200" font-size="12" text-anchor="middle" fill="#555">• Kritische Probleme</text>
+  
+  <!-- ACHP (rechts Mitte) -->
+  <rect x="1040" y="300" width="150" height="60" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="6"/>
+  <text x="1115" y="335" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">ACHP</text>
+  
+  
+  
+  
+  
+  
+  
+  <!-- Pfeile: E3-E7 → Event-Protokoll -->
+  <line x1="550" y1="710" x2="655" y2="710" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Pfeile: E8-E9 → Event-Protokoll -->
+  <line x1="550" y1="820" x2="655" y2="820" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Pfeile: E10-E11 → Event-Protokoll -->
+  <line x1="550" y1="920" x2="655" y2="920" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Pfeile: E12 → Event-Protokoll -->
+  <line x1="550" y1="1010" x2="655" y2="1010" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Pfeil: Event-Protokoll → E2 (nach oben) -->
+  <line x1="805" y1="660" x2="805" y2="640" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <text x="750" y="650" font-size="11" fill="#388e3c" font-weight="bold">Audit-Trail</text>
+  
+  <!-- Pfeile: ACHP ↔ E2 -->
+  <line x1="1040" y1="330" x2="950" y2="330" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <text x="985" y="325" font-size="10" fill="#f57c00" font-weight="bold">Kontext-Paket</text>
+  
+  <line x1="950" y1="340" x2="1040" y2="340" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <text x="985" y="355" font-size="10" fill="#388e3c" font-weight="bold">OK/FAIL</text>
+  
+  <!-- Pfeile: E2 → Fehlerprotokoll -->
+  <line x1="805" y1="240" x2="805" y2="220" stroke="#d32f2f" stroke-width="2" marker-end="url(#arrowhead-red)"/>
+  
+  <!-- Pfeile: Fehlerprotokoll → E0 (Eskalation) -->
+  <line x1="655" y1="110" x2="550" y2="110" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead-red)"/>
+  <text x="560" y="105" font-size="11" fill="#d32f2f" font-weight="bold">Eskalation</text>
+  
+  <!-- Pfeile: Fehlerprotokoll → E1 (Eskalation) -->
+  <line x1="655" y1="190" x2="550" y2="190" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead-red)"/>
+  <text x="560" y="185" font-size="11" fill="#d32f2f" font-weight="bold">Eskalation</text>
+  
+  <!-- Legende -->
+  <rect x="50" y="1100" width="900" height="150" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="6"/>
+  <text x="500" y="1130" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Legende: Datenfluss</text>
+  
+  
+  <line x1="100" y1="1190" x2="200" y2="1190" stroke="#388e3c" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead-green)"/>
+  <line x1="100" y1="1220" x2="200" y2="1220" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <text x="220" y="1225" font-size="12" fill="#333">Ebenen → Event-Protokoll: Aktionen protokollieren</text>
+  
+  <line x1="100" y1="1160" x2="200" y2="1160" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <text x="220" y="1165" font-size="12" fill="#333">Event-Protokoll → E2: Audit-Trail bereitstellen</text>
+  
+  <line x1="100" y1="1190" x2="200" y2="1190" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <text x="220" y="1195" font-size="12" fill="#333">ACHP → E2: Kontext-Paket zur Prüfung</text>
+  
+  <line x1="100" y1="1220" x2="200" y2="1220" stroke="#d32f2f" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead-red)"/>
+  <text x="220" y="1225" font-size="12" fill="#333">E2 → Fehlerprotokoll → E0/E1: Eskalation</text>
+  
+</svg>

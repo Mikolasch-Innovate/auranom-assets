@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1550 1900">
+  
+  <!-- Hintergrund -->
+  <rect x="-100" y="-100" width="1550" height="1900" fill="white"/>
+  
+  <!-- Titel -->
+  <text x="675" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">CPLS Learning-Prozess</text>
+  <text x="675" y="65" font-size="14" text-anchor="middle" fill="#666">Confidential &amp; Privacy-Preserving Learning System</text>
+  <text x="675" y="85" font-size="12" text-anchor="middle" fill="#999">Federated Learning mit Confidentiality Protection</text>
+  
+  <!-- Arrowhead Definitionen -->
+  <defs>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#388e3c" />
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1976d2" />
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#f57c00" />
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#7b1fa2" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d32f2f" />
+    </marker>
+  </defs>
+  
+  <!-- FL-Rahmen (umschließt gesamten Prozess) -->
+  <rect x="20" y="110" width="1310" height="1240" fill="none" stroke="#d32f2f" stroke-width="4" stroke-dasharray="15,10" rx="12"/>
+  <text x="675" y="140" font-size="20" font-weight="bold" text-anchor="middle" fill="#d32f2f">Federated Learning (FL)</text>
+  
+  <!-- Ebene 1: Kundeninteraktionen (UNTEN) -->
+  <text x="675" y="1300" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Kundeninteraktionen (Rohdaten)</text>
+  
+  <rect x="70" y="1200" width="200" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
+  <text x="170" y="1230" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Projekt A (Kunde 1)</text>
+  <text x="170" y="1250" font-size="10" text-anchor="middle" fill="#555">100 Interaktionen</text>
+  <text x="170" y="1265" font-size="10" text-anchor="middle" fill="#555">Meetings, Deliverables</text>
+  
+  <rect x="300" y="1200" width="200" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
+  <text x="400" y="1230" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Projekt B (Kunde 1)</text>
+  <text x="400" y="1250" font-size="10" text-anchor="middle" fill="#555">150 Interaktionen</text>
+  
+  <rect x="530" y="1200" width="200" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
+  <text x="630" y="1230" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Projekt C (Kunde 1)</text>
+  <text x="630" y="1250" font-size="10" text-anchor="middle" fill="#555">80 Interaktionen</text>
+  
+  <rect x="760" y="1200" width="200" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
+  <text x="860" y="1230" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Projekt A (Kunde 2)</text>
+  <text x="860" y="1250" font-size="10" text-anchor="middle" fill="#555">120 Interaktionen</text>
+  
+  <rect x="990" y="1200" width="300" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="3" stroke-dasharray="10,5" rx="6"/>
+  <text x="1140" y="1240" font-size="12" font-weight="bold" text-anchor="middle" fill="#666">Weitere Projekte...</text>
+  <text x="1140" y="1260" font-size="11" text-anchor="middle" fill="#666">Kunde 2, 3, ..., N</text>
+  
+  <!-- Pfeile: Interaktionen → Lokales Training -->
+  <line x1="170" y1="1200" x2="170" y2="1160" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <line x1="400" y1="1200" x2="400" y2="1160" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <line x1="630" y1="1200" x2="630" y2="1160" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <line x1="860" y1="1200" x2="860" y2="1160" stroke="#388e3c" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <text x="500" y="1185" font-size="12" fill="#388e3c" font-weight="bold">↑ Lokales Training (FL Phase 1)</text>
+  
+  <!-- Ebene 2: PIM (Project Intelligence Model) -->
+  <text x="675" y="1030" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">PIM (Project Intelligence Model)</text>
+  
+  <rect x="70" y="1060" width="200" height="80" fill="#a5d6a7" stroke="#388e3c" stroke-width="3" rx="6"/>
+  <text x="170" y="1085" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">PIM-1.1</text>
+  <text x="170" y="1105" font-size="10" text-anchor="middle" fill="#555">Projekt-Wissen A</text>
+  <text x="170" y="1120" font-size="10" text-anchor="middle" fill="#555">Best Practices</text>
+  <text x="170" y="1135" font-size="10" text-anchor="middle" fill="#555">Lessons Learned</text>
+  
+  <rect x="300" y="1060" width="200" height="80" fill="#a5d6a7" stroke="#388e3c" stroke-width="3" rx="6"/>
+  <text x="400" y="1085" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">PIM-1.2</text>
+  <text x="400" y="1105" font-size="10" text-anchor="middle" fill="#555">Projekt-Wissen B</text>
+  
+  <rect x="530" y="1060" width="200" height="80" fill="#a5d6a7" stroke="#388e3c" stroke-width="3" rx="6"/>
+  <text x="630" y="1085" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">PIM-1.3</text>
+  <text x="630" y="1105" font-size="10" text-anchor="middle" fill="#555">Projekt-Wissen C</text>
+  
+  <rect x="760" y="1060" width="200" height="80" fill="#a5d6a7" stroke="#388e3c" stroke-width="3" rx="6"/>
+  <text x="860" y="1085" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">PIM-2.1</text>
+  <text x="860" y="1105" font-size="10" text-anchor="middle" fill="#555">Projekt-Wissen A</text>
+  
+  <rect x="990" y="1060" width="300" height="80" fill="#a5d6a7" stroke="#388e3c" stroke-width="3" stroke-dasharray="10,5" rx="6"/>
+  <text x="1140" y="1105" font-size="12" font-weight="bold" text-anchor="middle" fill="#666">Weitere PIMs...</text>
+  
+  <!-- Pfeile: PIM → Aggregation Layer 1 -->
+  <line x1="170" y1="1060" x2="350" y2="970" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  <line x1="400" y1="1060" x2="450" y2="970" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  <line x1="630" y1="1060" x2="550" y2="970" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  <line x1="860" y1="1060" x2="900" y2="970" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  
+  <!-- Layer 1: Aggregation (PIM → CIM) -->
+  <rect x="200" y="900" width="850" height="60" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="8"/>
+  <text x="625" y="930" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Aggregation Layer 1: PIM → CIM</text>
+  <text x="625" y="950" font-size="11" text-anchor="middle" fill="#555">Aggregiert Projekt-Wissen zu Kunden-Wissen (pro Kunde)</text>
+  
+  <!-- Pfeil: Aggregation Layer 1 → CIM -->
+  <line x1="625" y1="900" x2="625" y2="860" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  
+  <!-- Ebene 3: CIM (Client Intelligence Model) -->
+  <text x="675" y="720" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">CIM (Client Intelligence Model)</text>
+  
+  <rect x="200" y="750" width="350" height="90" fill="#bbdefb" stroke="#1976d2" stroke-width="3" rx="6"/>
+  <text x="375" y="780" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">CIM-1 (Kunde 1)</text>
+  <text x="375" y="800" font-size="10" text-anchor="middle" fill="#555">Aggregiert: PIM-1.1, PIM-1.2, PIM-1.3</text>
+  <text x="375" y="815" font-size="10" text-anchor="middle" fill="#555">Kunden-Präferenzen, Organisationskultur</text>
+  <text x="375" y="830" font-size="10" text-anchor="middle" fill="#555">Erfolgreiche Methoden (bei diesem Kunden)</text>
+  
+  <rect x="580" y="750" width="350" height="90" fill="#bbdefb" stroke="#1976d2" stroke-width="3" rx="6"/>
+  <text x="755" y="780" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">CIM-2 (Kunde 2)</text>
+  <text x="755" y="800" font-size="10" text-anchor="middle" fill="#555">Aggregiert: PIM-2.1, PIM-2.2, ...</text>
+  
+  <rect x="960" y="750" width="300" height="90" fill="#bbdefb" stroke="#1976d2" stroke-width="3" stroke-dasharray="10,5" rx="6"/>
+  <text x="1110" y="795" font-size="12" font-weight="bold" text-anchor="middle" fill="#666">Weitere CIMs...</text>
+  <text x="1110" y="815" font-size="11" text-anchor="middle" fill="#666">CIM-3, ..., CIM-N</text>
+  
+  <!-- Pfeile: CIM → Confidentiality Protection Layer -->
+  <line x1="375" y1="750" x2="375" y2="670" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowhead-purple)"/>
+  <line x1="755" y1="750" x2="625" y2="670" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowhead-purple)"/>
+  
+  <!-- Layer 2: Confidentiality Protection Layer -->
+  <rect x="150" y="540" width="1000" height="110" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="4" rx="8"/>
+  <text x="650" y="570" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Confidentiality Protection Layer (Abstraktion)</text>
+  <text x="650" y="590" font-size="11" text-anchor="middle" fill="#555">Extrahiert abstraktes Wissen • Blockiert Rohdaten &amp; Rückverfolgbarkeit</text>
+  
+  <rect x="180" y="605" width="940" height="30" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" rx="4"/>
+  <text x="650" y="625" font-size="10" font-weight="bold" text-anchor="middle" fill="#333">✅ "5x5 Risikomatrix effektiver" • "Stakeholder-Engagement +20%" | ❌ "Kunde A: Risiko X" • "Projekt Y: [Details]"</text>
+  
+  <!-- Pfeil: Confidentiality Protection → ZKP Validation -->
+  <line x1="650" y1="540" x2="650" y2="500" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowhead-purple)"/>
+  
+  <!-- Layer 3: ZKP-Validation Layer -->
+  <rect x="200" y="430" width="900" height="60" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="8"/>
+  <text x="650" y="460" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">ZKP-Validation Layer (Zero-Knowledge-Proof)</text>
+  <text x="650" y="480" font-size="11" text-anchor="middle" fill="#555">Generiert &amp; validiert Proofs: Konformität (DSGVO), Integrität, Privacy, Confidentiality</text>
+  
+  <!-- Pfeil: ZKP Validation → Aggregation Layer 2 -->
+  <line x1="650" y1="430" x2="650" y2="390" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  
+  <!-- Layer 4: Aggregation (Federated Averaging) -->
+  <rect x="200" y="320" width="900" height="60" fill="#fff9c4" stroke="#f9a825" stroke-width="4" rx="8"/>
+  <text x="650" y="350" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Aggregation Layer 2: CIM → MIM (Federated Averaging)</text>
+  <text x="650" y="370" font-size="11" text-anchor="middle" fill="#555">Berechnet Durchschnitt aller CIM-Updates → Globales Modell (FL Phase 2)</text>
+  
+  <!-- Pfeil: Aggregation Layer 2 → MIM -->
+  <line x1="650" y1="320" x2="650" y2="280" stroke="#f9a825" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  
+  <!-- Ebene 4: MIM (Master Intelligence Model) - OBEN -->
+  <text x="675" y="210" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">MIM (Master Intelligence Model)</text>
+  
+  <rect x="250" y="170" width="800" height="90" fill="#ffe082" stroke="#f9a825" stroke-width="4" rx="8"/>
+  <text x="650" y="200" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">MIM (Globales Wissen)</text>
+  <text x="650" y="220" font-size="11" text-anchor="middle" fill="#555">Aggregiert aus CIM-1, CIM-2, ..., CIM-N • Abstrahiert • Ohne Herkunft • Ohne Rückverfolgbarkeit</text>
+  <text x="650" y="240" font-size="10" text-anchor="middle" fill="#666">Universelle Best Practices • Methodenwissen (generisch) • Statistische Korrelationen (anonymisiert)</text>
+  
+  <!-- Verteilung: MIM → CIM (rechts außen herum) -->
+  <!-- Pfeil geht von MIM rechts nach außen -->
+  <line x1="1050" y1="215" x2="1200" y2="215" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5"/>
+  <!-- Pfeil geht nach unten -->
+  <line x1="1200" y1="215" x2="1200" y2="795" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <!-- Verzweigung zu CIMs (horizontal) -->
+  <line x1="1200" y1="795" x2="930" y2="795" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowhead-green)"/>
+  <line x1="1200" y1="795" x2="755" y2="795" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowhead-green)"/>
+  <line x1="1200" y1="795" x2="375" y2="795" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowhead-green)"/>
+  
+  <!-- Label für Verteilung -->
+  <text x="1250" y="500" font-size="14" fill="#388e3c" font-weight="bold">Verteilung ↓</text>
+  <text x="1250" y="520" font-size="12" fill="#388e3c">(wöchentlich)</text>
+  <text x="1250" y="540" font-size="11" fill="#388e3c">FL Phase 3</text>
+  <text x="1250" y="560" font-size="11" fill="#388e3c">MIM → Alle CIMs</text>
+  <text x="1250" y="580" font-size="10" fill="#666">(ohne Herkunft)</text>
+  
+  <!-- Legende -->
+  <rect x="50" y="1380" width="1250" height="280" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="6"/>
+  <text x="675" y="1410" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Legende</text>
+  
+  <line x1="100" y1="1440" x2="200" y2="1440" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <text x="220" y="1445" font-size="12" fill="#333">Lokales Training ↑ (FL Phase 1): Kundeninteraktionen → PIM</text>
+  
+  <line x1="100" y1="1470" x2="200" y2="1470" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  <text x="220" y="1475" font-size="12" fill="#333">Aggregation ↑ (Layer 1): PIM → CIM (Projekt-Wissen → Kunden-Wissen)</text>
+  
+  <line x1="100" y1="1500" x2="200" y2="1500" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowhead-purple)"/>
+  <text x="220" y="1505" font-size="12" fill="#333">Abstraktion ↑ (Layer 2): CIM → Abstraktes Wissen (Confidentiality Protection)</text>
+  
+  <line x1="100" y1="1530" x2="200" y2="1530" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <text x="220" y="1535" font-size="12" fill="#333">ZKP-Validation ↑ (Layer 3): Generiert &amp; validiert Zero-Knowledge-Proofs</text>
+  
+  <line x1="100" y1="1560" x2="200" y2="1560" stroke="#f9a825" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
+  <text x="220" y="1565" font-size="12" fill="#333">Aggregation ↑ (Layer 4, FL Phase 2): CIM → MIM (Federated Averaging)</text>
+  
+  <line x1="100" y1="1590" x2="200" y2="1590" stroke="#388e3c" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowhead-green)"/>
+  <text x="220" y="1595" font-size="12" fill="#333">Verteilung ↓ (FL Phase 3): MIM → Alle CIMs (wöchentlich, ohne Herkunft, rechts außen herum)</text>
+  
+  <rect x="100" y="1610" width="100" height="20" fill="none" stroke="#d32f2f" stroke-width="3" stroke-dasharray="10,5" rx="4"/>
+  <text x="220" y="1625" font-size="12" fill="#333">Federated Learning (FL): Umfasst gesamten Prozess (Lokales Training → Aggregation → Verteilung)</text>
+  
+  <rect x="100" y="1640" width="100" height="20" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="4"/>
+  <text x="220" y="1655" font-size="12" fill="#333">Confidentiality Protection Layer: Extrahiert Muster, blockiert Rohdaten &amp; Rückverfolgbarkeit</text>
+  
+</svg>

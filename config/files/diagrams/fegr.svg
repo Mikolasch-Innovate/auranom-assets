@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 1800 1900" width="1800" height="1900">
+  <!-- Weißer Hintergrund -->
+  <rect x="-100" y="-100" width="1800" height="1900" fill="white"/>
+  
+  <!-- Titel -->
+  <text x="750" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    FEGR Interface-Diagramm
+  </text>
+  <text x="750" y="85" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666">
+    Facial and Gestic Recognition for Agent Control
+  </text>
+  
+  <!-- E0-E2 (oben links, gestrichelt, blass) -->
+  <rect x="50" y="250" width="500" height="100" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E0-E2: Governance
+  </text>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E0: Director | E1: System &amp; Process Agent
+  </text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E2: Agent Governance
+  </text>
+  
+  <!-- Pfeil E0-E2 → E3-E9 -->
+  <line x1="300" y1="350" x2="300" y2="400" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E3-E9 (Mitte links, gestrichelt, blass) -->
+  <rect x="50" y="400" width="500" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="300" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#999">
+    E3-E9: Prozess-Konfiguration
+  </text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    (ACI-gesteuert, nicht direkt von FEGR beeinflusst)
+  </text>
+  <text x="300" y="480" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E3: Process Orchestration Agent
+  </text>
+  <text x="300" y="500" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#999">
+    E4-E9: Phasen, Schritte, Methodik, Designelemente
+  </text>
+  
+  <!-- Pfeil E3-E9 → E10-E11 -->
+  <line x1="300" y1="520" x2="300" y2="570" stroke="#999" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgray)"/>
+  
+  <!-- E10-E11: Ausführung -->
+  <rect x="50" y="570" width="500" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="300" y="605" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    E10-E11: AUSFÜHRUNG (Team)
+  </text>
+  <text x="300" y="630" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    OUTPUT: Handlung
+  </text>
+  <text x="70" y="655" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E10: Tasks (z.B. "Pause vorschlagen")
+  </text>
+  <text x="70" y="678" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • E11: QC (Qualitätssicherung der Reaktion)
+  </text>
+  <text x="300" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    → Kontextbezogene Agenten-Reaktion
+  </text>
+  
+  <!-- Pfeil E10-E11 → E12 -->
+  <line x1="300" y1="710" x2="300" y2="760" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowpurple)"/>
+  
+  <!-- E12: Kundeninteraktion (unten) -->
+  <rect x="50" y="760" width="500" height="140" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="8"/>
+  <text x="300" y="795" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    E12: KUNDENINTERAKTION
+  </text>
+  <text x="300" y="820" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    INPUT: Video | OUTPUT: Reaktion
+  </text>
+  <text x="70" y="845" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • INPUT: Video-Stream (Mimik, Gestik, Körperhaltung)
+  </text>
+  <text x="70" y="868" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    • OUTPUT: Agenten-Reaktion basierend auf nonverbalen Signalen
+  </text>
+  <text x="300" y="890" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    Beispiel: Kunde zeigt Verwirrung (Stirnrunzeln)
+  </text>
+  
+  <!-- FEGR Box (Mitte, umschließend) -->
+  <rect x="700" y="150" width="550" height="980" fill="#fff3e0" stroke="#ff6f00" stroke-width="4" rx="12"/>
+  <text x="975" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff6f00">
+    FEGR (3 Module)
+  </text>
+  
+  <!-- Pfeil E12 → Modul 1 (unten) -->
+  <line x1="550" y1="910" x2="730" y2="910" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="620" y="905" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">
+    Video-Stream
+  </text>
+  
+  <!-- Modul 1: Nonverbale Echtzeit-Analyse - UNTEN (y=820, height=180) -->
+  <rect x="730" y="820" width="490" height="180" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="8"/>
+  <text x="975" y="855" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    1. NONVERBALE ECHTZEIT-ANALYSE
+  </text>
+  <text x="750" y="880" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Gesichtsanalyse:</tspan> Emotionen (CNNs) + Blickrichtung
+  </text>
+  <text x="750" y="903" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Gesten-Analyse:</tspan> Handgesten + Körperhaltung (MediaPipe)
+  </text>
+  <text x="750" y="931" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1976d2">
+    → Output: Basisemotionen + Gesten
+  </text>
+  <text x="750" y="954" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Beispiel: "Verwirrung erkannt" + "Arme verschränkt"
+  </text>
+  <text x="750" y="977" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Handlungsempfehlung: "Einfacher erklären"
+  </text>
+  
+  <!-- Pfeil Modul 1 → Modul 2 (nach oben) -->
+  <line x1="975" y1="820" x2="975" y2="770" stroke="#1976d2" stroke-width="3" marker-end="url(#arrowblue)"/>
+  
+  <!-- Modul 2: Multisprecher- und Identitätsmanagement (y=540, height=220) -->
+  <rect x="730" y="540" width="490" height="220" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="8"/>
+  <text x="975" y="575" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+    2. MULTISPRECHER-MANAGEMENT
+  </text>
+  <text x="975" y="597" font-family="Arial, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#666">
+    (Seminarraum-Modus)
+  </text>
+  <text x="750" y="622" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Personen-Tracking:</tspan> Mehrere Personen (anonyme IDs)
+  </text>
+  <text x="750" y="645" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Dynamische Namenszuordnung:</tspan> STT + Personen-ID
+  </text>
+  <text x="750" y="668" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Temporäre Datenbank: "Frau Meier" = Person_ID_3
+  </text>
+  <text x="750" y="696" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7b1fa2">
+    → Output: Aufzeige-Trigger
+  </text>
+  <text x="750" y="719" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Beispiel: "Frau Meier hat aufgezeigt"
+  </text>
+  <text x="750" y="742" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Agent: "Frau Meier, Sie haben eine Frage?"
+  </text>
+  
+  <!-- Pfeil Modul 2 → Modul 3 (nach oben) -->
+  <line x1="975" y1="540" x2="975" y2="490" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowpurple2)"/>
+  
+  <!-- Modul 3: Gruppen-Engagement-Analyse - OBEN (y=220, height=260) -->
+  <rect x="730" y="220" width="490" height="260" fill="#fff9c4" stroke="#f57f17" stroke-width="3" rx="8"/>
+  <text x="975" y="255" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    3. GRUPPEN-ENGAGEMENT-ANALYSE
+  </text>
+  <text x="750" y="280" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Müdigkeits-Erkennung:</tspan> PERCLOS + Kopfhaltung (aggregiert)
+  </text>
+  <text x="750" y="303" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <tspan font-weight="bold">Desinteresse-Erkennung:</tspan> Wegsehen, Gähnen, passive Haltung
+  </text>
+  <text x="750" y="326" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    → Schwellenwert-Analyse: 60% der Gruppe müde
+  </text>
+  <text x="750" y="354" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f57f17">
+    → Output: Gruppen-Handlungsempfehlung
+  </text>
+  <text x="750" y="377" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Beispiel: "Empfehlung: Pause vorschlagen"
+  </text>
+  <text x="750" y="400" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Beispiel: "Empfehlung: Interaktive Frage stellen"
+  </text>
+  <text x="750" y="428" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f57f17">
+    → Proaktive Agenten-Steuerung
+  </text>
+  <text x="750" y="451" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    Agent: "Ich schlage eine kurze Pause vor"
+  </text>
+  
+  <!-- Pfeil Modul 3 → E10-E11 -->
+  <line x1="730" y1="350" x2="550" y2="640" stroke="#ff6f00" stroke-width="3" marker-end="url(#arroworange)"/>
+  <text x="620" y="485" font-family="Arial, sans-serif" font-size="12" fill="#ff6f00" transform="rotate(-60, 620, 485)">
+    Trigger
+  </text>
+  
+  <!-- Rechte Seite: Anbindungen -->
+  <rect x="1300" y="400" width="380" height="250" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="8"/>
+  <text x="1490" y="435" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    ANBINDUNGEN
+  </text>
+  
+  <!-- G-EE -->
+  <rect x="1320" y="460" width="340" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="1490" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">
+    G-EE (Steuerung)
+  </text>
+  <text x="1340" y="515" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Empfängt nonverbale Trigger von FEGR
+  </text>
+  <text x="1340" y="532" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    → Steuert Agenten basierend auf Trigger
+  </text>
+  
+  <!-- LANA -->
+  <rect x="1320" y="560" width="340" height="70" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="1490" y="590" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    LANA (Sprachlich)
+  </text>
+  <text x="1340" y="615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Ergänzt FEGR mit sprachlicher Analyse
+  </text>
+  
+  <!-- Pfeile FEGR → Anbindungen -->
+  <line x1="1250" y1="500" x2="1320" y2="500" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="1250" y1="595" x2="1320" y2="595" stroke="#1976d2" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Legende -->
+  <rect x="50" y="1550" width="1200" height="120" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="650" y="1580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Legende
+  </text>
+  <line x1="70" y1="1610" x2="120" y2="1610" stroke="#388e3c" stroke-width="3"/>
+  <text x="130" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Input (E12 → FEGR)
+  </text>
+  <line x1="280" y1="1610" x2="330" y2="1610" stroke="#ff6f00" stroke-width="3"/>
+  <text x="340" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Output (FEGR → E10-E11)
+  </text>
+  <line x1="520" y1="1610" x2="570" y2="1610" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="580" y="1615" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Anbindungen (G-EE, LANA)
+  </text>
+  <line x1="70" y1="1635" x2="120" y2="1635" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="130" y="1640" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    Governance (E0-E2) / Prozess (E3-E9)
+  </text>
+  <rect x="380" y="1620" width="120" height="25" fill="#fff3e0" stroke="#ff6f00" stroke-width="2" rx="3"/>
+  <text x="440" y="1638" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff6f00">
+    FEGR-System
+  </text>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowgray" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#388e3c"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arrowpurple2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff6f00"/>
+    </marker>
+  </defs>
+</svg>
