@@ -1,4 +1,4 @@
-# Technical Specification: Autonomous Context-Aware Handoff Protocol (ACHP)
+# Technical Specification: IP 2 (ACHP- Autonomous Context-Aware Handoff Protocol)
 
 ## 1. Title of the Invention
 
