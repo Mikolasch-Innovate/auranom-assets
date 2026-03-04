@@ -1,4 +1,4 @@
-# Technische Spezifikation: Patent 9 (G-EE)
+# Technische Spezifikation: IP 8 (G-EE)
 
 **Datum:** 16. November 2025
 **Version:** 1.0

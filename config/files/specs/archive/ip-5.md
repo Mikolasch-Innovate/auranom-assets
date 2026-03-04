@@ -1,4 +1,4 @@
-# Technische Spezifikation: IP 6 V2 (ACI)
+# Technische Spezifikation: IP 5 (ACI)
 
 **Datum:** 16. November 2025
 **Version:** 1.0

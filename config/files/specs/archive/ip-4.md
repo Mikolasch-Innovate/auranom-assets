@@ -1,4 +1,4 @@
-# Technische Spezifikation: AURA Avatar System
+# Technische Spezifikation: IP 4 (AURA Avatar System)
 
 ## 1. Titel der Erfindung
 

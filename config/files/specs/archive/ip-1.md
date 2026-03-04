@@ -1,4 +1,4 @@
-# Technische Spezifikation: Dual-Prozess-Orchestrierung
+# Technische Spezifikation: IP 1 (DPO - Dual-Prozess-Orchestrierung)
 
 ## 1. Titel der Erfindung
 
