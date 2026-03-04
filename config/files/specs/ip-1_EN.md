@@ -1,4 +1,4 @@
-# Technical Specification: Dual-Process Orchestration
+# Technical Specification: IP 1 (DPO-Dual-Process Orchestration)
 
 ## 1. Title of the Invention
 
