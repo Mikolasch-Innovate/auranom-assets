@@ -147,3 +147,34 @@
     Ensures outcomes remain defensible through evaluation protocols, monitoring, and evidence packaging supporting assurance claims.
 
 ---
+
+## Asset Store — Documentation & Architecture Diagrams
+
+All technical documentation exists in bilingual form (DE original + EN translation).  
+See the full translation registry: [`config/files/asset_index.md`](files/asset_index.md)
+
+### Executive Summaries (EN)
+- [AMAS](files/specs/Executive_Summary_AMAS_EN.md) — Autonomous Multi-Agent System
+- [ACHP](files/specs/Executive_Summary_ACHP_EN.md) — Autonomous Context-Aware Handoff Protocol
+- [ACI](files/specs/Executive_Summary_ACI_EN.md) — Adaptive Consulting Intelligence
+- [AURA](files/specs/Executive_Summary_AURA_EN.md) — Avatar System
+- [CPLS](files/specs/Executive_Summary_CPLS_EN.md) — Confidential & Privacy-Preserving Learning System
+- [DPO](files/specs/Executive_Summary_DPO_EN.md) — Dual-Process Orchestration
+- [FEGR](files/specs/Executive_Summary_FEGR_EN.md) — Facial & Gestic Recognition
+- [G-EE](files/specs/Executive_Summary_G-EE_EN.md) — Governance & Execution Engine
+- [LANA](files/specs/Executive_Summary_LANA_EN.md) — Language Analysis System
+- [SABEE](files/specs/Executive_Summary_SABEE_EN.md) — Sandbox Execution Engine
+
+### Whitepapers (EN)
+- [AMAS](files/specs/Whitepaper_AMAS_EN.md) | [ACHP](files/specs/Whitepaper_ACHP_EN.md) | [ACI](files/specs/Whitepaper_ACI_EN.md) | [AURA](files/specs/Whitepaper_AURA_EN.md) | [CPLS](files/specs/Whitepaper_CPLS_EN.md)
+- [DPO](files/specs/Whitepaper_DPO_EN.md) | [FEGR](files/specs/Whitepaper_FEGR_EN.md) | [G-EE](files/specs/Whitepaper_G-EE_EN.md) | [LANA](files/specs/Whitepaper_LANA_EN.md) | [SABEE](files/specs/Whitepaper_SABEE_EN.md)
+
+### Technical IP Specifications (EN)
+- [IP-1 DPO](files/specs/ip-1_EN.md) | [IP-2 ACHP](files/specs/ip-2_EN.md) | [IP-3 PPLS](files/specs/ip-3_EN.md) | [IP-4 AURA](files/specs/ip-4_EN.md) | [IP-5 ACI V2](files/specs/ip-5_EN.md)
+- [IP-6 SABEE](files/specs/ip-6_EN.md) | [IP-7 FEGR](files/specs/ip-7_EN.md) | [IP-8 G-EE](files/specs/ip-8_EN.md) | [IP-9 LANA](files/specs/ip-9_EN.md)
+
+### Architecture Diagrams (EN)
+- [AMAS](files/diagrams/amas_EN.svg) | [ACHP](files/diagrams/achp_EN.svg) | [ACI](files/diagrams/aci_EN.svg) | [AURA](files/diagrams/aura_EN.svg) | [CPLS](files/diagrams/cpls_EN.svg) | [DPO](files/diagrams/dpo_EN.svg)
+- [FEGR](files/diagrams/fegr_EN.svg) | [G-EE](files/diagrams/g-ee_EN.svg) | [GEE](files/diagrams/gee_EN.svg) | [ISMS](files/diagrams/isms_EN.svg) | [LANA](files/diagrams/lana_EN.svg) | [SABEE](files/diagrams/sabee_EN.svg)
+
+---
