@@ -76,7 +76,7 @@
     • INPUT: User speech (MP3, WAV)
   </text>
   <text x="70" y="868" font-family="Arial, sans-serif" font-size="13" fill="#333">
-    • OUTPUT: Empathische Antwort an Clients
+    • OUTPUT: Empathetic response to clients
   </text>
   <text x="300" y="890" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#388e3c">
     Example: "That is great help"

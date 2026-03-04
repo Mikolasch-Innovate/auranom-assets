@@ -119,7 +119,7 @@
   <rect x="950" y="500" width="280" height="100" fill="#ffe0b2" stroke="#f57c00" stroke-width="3" rx="6"/>
   <text x="1090" y="540" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">ACHP</text>
   <text x="1090" y="560" font-size="11" text-anchor="middle" fill="#555">Internes Handoff</text>
-  <text x="1090" y="580" font-size="11" text-anchor="middle" fill="#555">Session-Wechsel</text>
+  <text x="1090" y="580" font-size="11" text-anchor="middle" fill="#555">Session Switch</text>
   
   <!-- NEW ARROWS: 1. WRITING (green dashed) -->
   <line x1="500" y1="635" x2="570" y2="700" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead-green)"/>
@@ -150,7 +150,7 @@
   <!-- Download: MIM → CIM (weekly) -->
   <line x1="950" y1="170" x2="880" y2="170" stroke="#7b1fa2" stroke-width="3" marker-end="url(#arrowhead-purple)"/>
   <text x="915" y="165" font-size="11" fill="#7b1fa2" font-weight="bold">Download</text>
-  <text x="915" y="180" font-size="10" fill="#7b1fa2">(wöchentlich)</text>
+  <text x="915" y="180" font-size="10" fill="#7b1fa2">(weekly)</text>
   
   <!-- NEW ARROWS: 4. INTERNAL HANDOFF (ACHP at height of Layer 2) -->
   <!-- A. Token limit → ACHP -->
@@ -159,16 +159,16 @@
   
   <!-- B. ACHP → Session Chain (from Layer 2 to Session Chain) -->
   <line x1="950" y1="560" x2="880" y2="840" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
-  <text x="900" y="700" font-size="11" fill="#f57c00" font-weight="bold">Neue Session-ID</text>
+  <text x="900" y="700" font-size="11" fill="#f57c00" font-weight="bold">New Session-ID</text>
   
   <!-- C. Layer 1 → Layer 2 (archive Session 1) -->
   <line x1="650" y1="640" x2="650" y2="620" stroke="#f57c00" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead-orange)"/>
-  <text x="660" y="632" font-size="10" fill="#f57c00" font-weight="bold">Session 1 archivieren</text>
+  <text x="660" y="632" font-size="10" fill="#f57c00" font-weight="bold">Archive Session 1</text>
   
   <!-- D. ACHP → Layer 1 (load context package, from Layer 2 to Layer 1) -->
   <line x1="950" y1="540" x2="880" y2="700" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
-  <text x="900" y="620" font-size="11" fill="#388e3c" font-weight="bold">Kontext-Paket</text>
-  <text x="900" y="635" font-size="10" fill="#388e3c">laden (40-60k)</text>
+  <text x="900" y="620" font-size="11" fill="#388e3c" font-weight="bold">Context Package</text>
+  <text x="900" y="635" font-size="10" fill="#388e3c">load (40-60k)</text>
   
   <!-- Legend -->
   <rect x="50" y="980" width="1350" height="230" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="6"/>

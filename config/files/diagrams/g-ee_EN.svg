@@ -35,7 +35,7 @@
   <!-- E2: AGENTS GOVERNANCE (G-EE/ARGUS) - ZENTRAL -->
   <rect x="50" y="240" width="900" height="400" fill="#fce4ec" stroke="#c2185b" stroke-width="4" rx="8"/>
   <text x="500" y="270" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">E2: AGENTS GOVERNANCE (G-EE/ARGUS)</text>
-  <text x="500" y="295" font-size="14" text-anchor="middle" fill="#555">Meta-Ebene: Monitors Agent Behaviour</text>
+  <text x="500" y="295" font-size="14" text-anchor="middle" fill="#555">Meta-Level: Monitors Agent Behaviour</text>
   
   <!-- 9 Services innerhalb E2 -->
   <rect x="70" y="310" width="860" height="310" fill="#f8bbd0" stroke="#c2185b" stroke-width="2" rx="6"/>
@@ -74,22 +74,22 @@
   <text x="500" y="585" font-size="11" text-anchor="middle" fill="#555">Quality Approval (OK/FAIL) • Escalation • Corrections</text>
   <text x="500" y="605" font-size="11" text-anchor="middle" fill="#555">Error Log • Audit Trail</text>
   
-  <!-- E3-E7: PROZESS-ORCHESTRIERUNG -->
+  <!-- E3-E7: PROCESS ORCHESTRATION -->
   <rect x="50" y="660" width="500" height="100" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="6"/>
-  <text x="300" y="685" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E3-E7: PROZESS-ORCHESTRIERUNG</text>
+  <text x="300" y="685" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E3-E7: PROCESS ORCHESTRATION</text>
   <text x="300" y="705" font-size="12" text-anchor="middle" fill="#555">E3: Dual-Process</text>
   <text x="300" y="720" font-size="12" text-anchor="middle" fill="#555">E4: Phases • E5: Milestones</text>
   <text x="300" y="735" font-size="12" text-anchor="middle" fill="#555">E6: Steps • E7: Event Design</text>
   
-  <!-- E8-E9: BERATUNGS-METHODIK -->
+  <!-- E8-E9: CONSULTING METHODOLOGY -->
   <rect x="50" y="780" width="500" height="80" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2" rx="6"/>
-  <text x="300" y="805" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E8-E9: BERATUNGS-METHODIK</text>
+  <text x="300" y="805" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E8-E9: CONSULTING METHODOLOGY</text>
   <text x="300" y="825" font-size="12" text-anchor="middle" fill="#555">E8: Consulting Methodology</text>
   <text x="300" y="845" font-size="12" text-anchor="middle" fill="#555">E9: Design Elements</text>
   
-  <!-- E10-E11: TASK-MANAGEMENT -->
+  <!-- E10-E11: TASK MANAGEMENT -->
   <rect x="50" y="880" width="500" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="6"/>
-  <text x="300" y="905" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E10-E11: TASK-MANAGEMENT</text>
+  <text x="300" y="905" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E10-E11: TASK MANAGEMENT</text>
   <text x="300" y="925" font-size="12" text-anchor="middle" fill="#555">E10: Tasks (Status Tracking)</text>
   <text x="300" y="945" font-size="12" text-anchor="middle" fill="#555">E11: Execution &amp; QC</text>
   
@@ -98,9 +98,9 @@
   <text x="300" y="1005" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">E12: CLIENT INTERACTION</text>
   <text x="300" y="1025" font-size="12" text-anchor="middle" fill="#555">STT, Pres, WB, TTS, CRM, PM, Analytics, Avatar</text>
   
-  <!-- Event-Protokoll (25px rechts neben Ebenen, Höhe E3-E12) -->
+  <!-- Event Log (25px to the right of layers, height E3-E12) -->
   <rect x="655" y="660" width="300" height="380" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="6"/>
-  <text x="805" y="690" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Event-Protokoll</text>
+  <text x="805" y="690" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Event Log</text>
   <text x="805" y="715" font-size="13" text-anchor="middle" fill="#555">Logs Agent Actions</text>
   <line x1="670" y1="730" x2="940" y2="730" stroke="#388e3c" stroke-width="1"/>
   
@@ -125,7 +125,7 @@
   <!-- Error log (above E2, right of E0-E1) -->
   <rect x="655" y="80" width="300" height="140" fill="#ffebee" stroke="#d32f2f" stroke-width="3" rx="6"/>
   <text x="805" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Error Log</text>
-  <text x="805" y="135" font-size="13" text-anchor="middle" fill="#555">Dokumentation aller Probleme</text>
+  <text x="805" y="135" font-size="13" text-anchor="middle" fill="#555">Documentation of all issues</text>
   <text x="805" y="160" font-size="12" text-anchor="middle" fill="#555">• Governance Error (G-EE)</text>
   <text x="805" y="180" font-size="12" text-anchor="middle" fill="#555">• Compliance Error (Veritas)</text>
   <text x="805" y="200" font-size="12" text-anchor="middle" fill="#555">• Critical issues</text>
@@ -154,11 +154,11 @@
   
   <!-- Arrow: Event Log → E2 (upward) -->
   <line x1="805" y1="660" x2="805" y2="640" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
-  <text x="750" y="650" font-size="11" fill="#388e3c" font-weight="bold">Audit-Trail</text>
+  <text x="750" y="650" font-size="11" fill="#388e3c" font-weight="bold">Audit Trail</text>
   
   <!-- Arrows: ACHP ↔ E2 -->
   <line x1="1040" y1="330" x2="950" y2="330" stroke="#f57c00" stroke-width="3" marker-end="url(#arrowhead-orange)"/>
-  <text x="985" y="325" font-size="10" fill="#f57c00" font-weight="bold">Kontext-Paket</text>
+  <text x="985" y="325" font-size="10" fill="#f57c00" font-weight="bold">Context Package</text>
   
   <line x1="950" y1="340" x2="1040" y2="340" stroke="#388e3c" stroke-width="3" marker-end="url(#arrowhead-green)"/>
   <text x="985" y="355" font-size="10" fill="#388e3c" font-weight="bold">OK/FAIL</text>
@@ -168,11 +168,11 @@
   
   <!-- Arrows: Error log → E0 (Escalation) -->
   <line x1="655" y1="110" x2="550" y2="110" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead-red)"/>
-  <text x="560" y="105" font-size="11" fill="#d32f2f" font-weight="bold">Eskalation</text>
+  <text x="560" y="105" font-size="11" fill="#d32f2f" font-weight="bold">Escalation</text>
   
   <!-- Arrows: Error log → E1 (Escalation) -->
   <line x1="655" y1="190" x2="550" y2="190" stroke="#d32f2f" stroke-width="3" stroke-dasharray="5,5" marker-end="url(#arrowhead-red)"/>
-  <text x="560" y="185" font-size="11" fill="#d32f2f" font-weight="bold">Eskalation</text>
+  <text x="560" y="185" font-size="11" fill="#d32f2f" font-weight="bold">Escalation</text>
   
   <!-- Legend -->
   <rect x="50" y="1100" width="900" height="150" fill="#f5f5f5" stroke="#999" stroke-width="2" rx="6"/>

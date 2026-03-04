@@ -46,10 +46,10 @@
     Strategic decisions, Escalation
   </text>
 
-  <!-- E1: System & Prozesse Governance Agent -->
+  <!-- E1: System & Processes Governance Agent -->
   <rect x="50" y="270" width="400" height="90" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="8"/>
   <text x="250" y="300" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">
-    E1: System &amp; Prozesse Governance Agent
+    E1: System &amp; Processes Governance Agent
   </text>
   <text x="250" y="325" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
     Compliance, Process Standards
@@ -58,10 +58,10 @@
     ISO 9001, 20700, 27001, 42001, 21500
   </text>
 
-  <!-- E2: Agenten Governance Agent -->
+  <!-- E2: Agents Governance Agent -->
   <rect x="50" y="380" width="400" height="70" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="8"/>
   <text x="250" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
-    E2: Agenten Governance Agent
+    E2: Agents Governance Agent
   </text>
   <text x="250" y="435" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">
     Monitors Agent Behaviour
@@ -259,11 +259,11 @@
 
   <!-- E2 → G-EE (directly right) -->
   <line x1="450" y1="415" x2="600" y2="390" stroke="#1976d2" stroke-width="2" marker-end="url(#arrowblue)"/>
-  <text x="500" y="395" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">Implementiert</text>
+  <text x="500" y="395" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">Implements</text>
 
   <!-- E3-E7 → ACHP (directly right, upward) -->
   <line x1="450" y1="530" x2="600" y2="270" stroke="#388e3c" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowgreen)"/>
-  <text x="500" y="390" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">Nutzt ACHP</text>
+  <text x="500" y="390" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">Uses ACHP</text>
 
   <!-- E3-E7 → ACI (down, horizontal, up) -->
   <line x1="450" y1="550" x2="500" y2="550" stroke="#f57c00" stroke-width="2" stroke-dasharray="5,5"/>
@@ -279,15 +279,15 @@
   <line x1="520" y1="1140" x2="1190" y2="1140" stroke="#7b1fa2" stroke-width="2"/>
   <line x1="1190" y1="1140" x2="1190" y2="685" stroke="#7b1fa2" stroke-width="2"/>
   <line x1="1190" y1="685" x2="1200" y2="685" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowpurple)"/>
-  <text x="800" y="1130" font-family="Arial, sans-serif" font-size="12" fill="#7b1fa2">E3-E7 → DPO (integriert)</text>
+  <text x="800" y="1130" font-family="Arial, sans-serif" font-size="12" fill="#7b1fa2">E3-E7 → DPO (integrated)</text>
 
   <!-- E10-E11 → SABEE (directly diagonal) -->
   <line x1="450" y1="805" x2="600" y2="515" stroke="#f57c00" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arroworange)"/>
-  <text x="500" y="650" font-family="Arial, sans-serif" font-size="12" fill="#f57c00">Nutzt SABEE</text>
+  <text x="500" y="650" font-family="Arial, sans-serif" font-size="12" fill="#f57c00">Uses SABEE</text>
 
   <!-- E10-E11 → PPLS (directly left, upward) -->
   <line x1="450" y1="815" x2="600" y2="670" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowpurple)"/>
-  <text x="500" y="730" font-family="Arial, sans-serif" font-size="12" fill="#7b1fa2">Nutzt PPLS</text>
+  <text x="500" y="730" font-family="Arial, sans-serif" font-size="12" fill="#7b1fa2">Uses PPLS</text>
 
   <!-- E10-E11 → AURA (down, horizontal, up) -->
   <line x1="450" y1="825" x2="560" y2="825" stroke="#c2185b" stroke-width="2" stroke-dasharray="5,5"/>
