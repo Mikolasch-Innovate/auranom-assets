@@ -1,4 +1,4 @@
-# Technical Specification: AURA Avatar System
+# Technical Specification: IP 4 (AURA Avatar System)
 
 ## 1. Title of the Invention
 
