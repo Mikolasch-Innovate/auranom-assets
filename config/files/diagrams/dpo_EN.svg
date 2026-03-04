@@ -178,7 +178,7 @@
   <!-- Handoff Consulting → Sales (Upselling) -->
   <path d="M 930 905 Q 800 980, 375 710" stroke="#d32f2f" stroke-width="4" fill="none" stroke-dasharray="10,5" marker-end="url(#arrowred)"/>
   <text x="650" y="1000" font-family="Arial, sans-serif" font-size="14" fill="#d32f2f" font-weight="bold">
-    Opportunity-Paket (Upselling)
+    Opportunity Package (Upselling)
   </text>
   <text x="650" y="920" font-family="Arial, sans-serif" font-size="12" fill="#d32f2f">
     (New needs, estimated value)
