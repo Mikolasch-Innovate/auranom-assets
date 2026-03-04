@@ -1,4 +1,4 @@
-# Technical Specification: Patent 10 (LANA)
+# Technical Specification: IP 10 (LANA)
 
 **Date:** 16 November 2025
 **Version:** 1.0
