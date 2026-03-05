@@ -51,9 +51,9 @@ The uniqueness of Dual-Process Orchestration is demonstrated by its distinction 
 
 | Technology/Work | Nearest Relevant State of the Art | Distinction and Novelty |
 | :--- | :--- | :--- |
-| **Consulting MAS** | **IP 1 (Auranom) - Multi-Agent Orchestration for Consulting** [1] | IP 1 focuses exclusively on consulting processes under ISO 20700. IP 5 **additionally integrates sales processes** under ISO 9001 and enables **automated handoffs** and **upselling** between both processes. |
+| **Consulting MAS** | **IP 1 (Auranom) - Multi-Agent Orchestration for Consulting** [1] | IP 1 focuses exclusively on consulting processes under ISO 20700. IP 1 **additionally integrates sales processes** under ISO 9001 and enables **automated handoffs** and **upselling** between both processes. |
 | **CRM Systems** | **Salesforce Agentforce (2024)** [2] | Salesforce Agentforce is designed for CRM and sales, but without integration of **knowledge-based consulting processes** or ISO 20700 compliance. |
-| **Multi-Agent Systems** | **C3 AI – US IP 12,111,859** [3] | C3 AI is designed for general business functions. IP 5 is specifically for the **dual-process integration** of sales and consulting with **dual-standard compliance**. |
+| **Multi-Agent Systems** | **C3 AI – US IP 12,111,859** [3] | C3 AI is designed for general business functions. IP 1 is specifically for the **dual-process integration** of sales and consulting with **dual-standard compliance**. |
 
 ### References
 

@@ -23,7 +23,7 @@ Existing multi-agent systems operate with rigid, predefined workflows. They cann
 
 ## 3. Solution: The ACI V2 Architecture
 
-The Adaptive Consulting Intelligence (ACI) is an AI-powered system that closes this gap. It analyses the initial project parameters and autonomously configures a tailored, role-based consulting process. The architecture is based on two core innovations: the 9-layer process hierarchy and the ACI decision logic for generating five design elements. Execution is governed by the overarching Governance & Execution Engine (G-EE, IP 9).
+The Adaptive Consulting Intelligence (ACI) is an AI-powered system that closes this gap. It analyses the initial project parameters and autonomously configures a tailored, role-based consulting process. The architecture is based on two core innovations: the 9-layer process hierarchy and the ACI decision logic for generating five design elements. Execution is governed by the overarching Governance & Execution Engine (G-EE, IP 8).
 
 ### 3.1. The 9-Layer Process Hierarchy
 
@@ -61,7 +61,7 @@ These **five design elements** are a proprietary core innovation and typically i
 - **Generic Agent Orchestrators (e.g., Microsoft AutoGen):** These offer frameworks for communication between agents but contain no logic for adaptive process configuration or active governance enforcement.
 - **Existing RAG Systems:** These answer questions. ACI uses RAG not only for information retrieval but as the basis for a complex, multi-stage decision logic for process design.
 
-ACI V2 is the first system that enables the dynamic, context-sensitive generation of complex, knowledge-based processes for multi-agent systems. Governance enforcement is ensured by the overarching Governance & Execution Engine (G-EE, IP 9).
+ACI V2 is the first system that enables the dynamic, context-sensitive generation of complex, knowledge-based processes for multi-agent systems. Governance enforcement is ensured by the overarching Governance & Execution Engine (G-EE, IP 8).
 
 ---
 
