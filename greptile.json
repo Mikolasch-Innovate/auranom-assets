@@ -1,0 +1,72 @@
+{
+  "labels": ["A_GreptileReview"],
+  "disabledLabels": ["docs", "wip"],
+  "triggerOnUpdates": false,
+  "shouldUpdateDescription": false,
+  "updateExistingSummaryComment": false,
+  "statusCommentsEnabled": true,
+  "strictness": 2,
+  "commentTypes": [
+    "logic",
+    "syntax",
+    "style",
+    "info",
+    "notes",
+    "advice",
+    "checks"
+  ],
+  "fixWithAI": true,
+  "ignorePatterns": "node_modules/**\ndist/**\nbuild/**\n.next/**\ncoverage/**\n*.lock\n*.md\ngreptile.json\n__pycache__/**\n.venv/**\nvenv/**\n.pytest_cache/**\n.ruff_cache/**\nhtmlcov/**\n.coverage\n*.pyc\n.DS_Store",
+
+  "instructions": "As an AI Code Reviewer for AURANOM repositories, your primary objective is to improve code quality, maintainability, and architectural consistency while reducing production risk. Reviews must be precise, actionable, and tied to observable code behavior.\n\nCore Principles:\n- ISO 42001 (AI Management System): Verify traceability of AI-assisted behavior. AI or model-driven decisions must be logged with enough context to audit input, output, and runtime impact.\n- ISO 27001 (Information Security Management): Prioritize secure handling of credentials, sensitive data, and external inputs. Enforce schema validation, least-privilege patterns, and avoidance of secret leakage.\n- ISO 20700 (Service Quality): Ensure business logic remains transparent and justified. Heuristics, scoring rules, and automation decisions should be documented and testable.\n- ISO 21500 (Workflow Governance): Validate orchestration logic with explicit stages, gate criteria, and deterministic error paths.\n\nSeverity Classification: Every inline comment MUST start with a severity tag. Use exactly these tags:\n- [P1] Blocker: security vulnerability, data loss, broken flow, build failure — must be fixed before merge\n- [P2] Important: logic error, missing test coverage, performance regression, API misuse\n- [P3] Suggestion: style, naming, optional improvement\n\nEvery PR summary MUST include exactly this line: P1: X | P2: Y | P3: Z\n\nReviewer Tone: Constructive and educational. Every finding must be actionable and include a clear remediation direction.",
+
+  "summarySection": {
+    "included": true,
+    "collapsible": true,
+    "defaultOpen": true
+  },
+  "issuesTableSection": {
+    "included": true,
+    "collapsible": true,
+    "defaultOpen": true
+  },
+  "confidenceScoreSection": {
+    "included": true,
+    "collapsible": true,
+    "defaultOpen": true
+  },
+  "sequenceDiagramSection": {
+    "included": true,
+    "collapsible": true,
+    "defaultOpen": true
+  },
+
+  "customContext": {
+    "rules": [
+      {
+        "scope": ["server/**/*.ts", "backend/**/*.py", "scripts/**/*.ts", "scripts/**/*.py"],
+        "rule": "ISO 42001 - AI/Automation Traceability: AI-driven or heuristic decisions must emit structured logs with key inputs, outcome, and timing.\nGood: logger.info('decision_made', { decision, input_hash, score, latency_ms })\nBad: const decision = runScoring(input); return decision;"
+      },
+      {
+        "scope": ["**/*.ts", "**/*.py"],
+        "rule": "ISO 27001 - No Hardcoded Secrets: API keys and credentials must come from ENV/settings providers and never literals.\nGood: const token = ENV.GITHUB_TOKEN; or settings.APOLLO_API_KEY\nBad: Authorization: 'Bearer sk-1234567890abcdef'"
+      },
+      {
+        "scope": ["server/**/*.ts", "backend/**/*.py"],
+        "rule": "ISO 27001 - External Input Validation: HTTP/webhook payloads must be schema-validated before use (Zod/Pydantic).\nGood: const payload = webhookSchema.parse(req.body) or payload = WebhookSchema(**request.json())\nBad: processEvent(req.body.event)"
+      },
+      {
+        "scope": ["**/*graph*.py", "**/*workflow*.py", "server/**/*.ts"],
+        "rule": "ISO 21500 - Workflow Gates: Multi-step orchestration must document stage intent, transition criteria, and fallback/error path.\nGood: explicit state machine transitions with guard conditions and failure branch\nBad: implicit branching with unnamed magic thresholds"
+      },
+      {
+        "scope": ["**/*.ts", "**/*.py"],
+        "rule": "ISO 20700 - Decision Transparency: Scoring, ranking, or prioritization logic must explain weights/thresholds and include tests for edge cases.\nGood: documented function with named constants and boundary tests\nBad: return score > 0.73 ? 'high' : 'low' without rationale"
+      },
+      {
+        "scope": ["server/**/*.ts", "backend/**/*.py"],
+        "rule": "Reliability - Error Handling and Observability: async operations must handle failures with context-rich logs and typed error responses.\nGood: try/catch with request ID, upstream status, and safe error mapping\nBad: catch (e) { return 500 } without logging context"
+      }
+    ]
+  }
+}
