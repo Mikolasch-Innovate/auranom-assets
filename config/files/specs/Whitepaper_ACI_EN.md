@@ -15,10 +15,10 @@ Consulting is not "one size fits all". A startup needs a different approach than
 ## 3. The Solution: Dynamic Process Generation
 ACI uses a 2-stage decision engine:
 1.  **Strategy Layer:** Selects the project management model (e.g., "Agile Scrum" vs. "Regulatory Waterfall").
-2.  **Methodology Layer:** Retrieves expert methods from a vector database (RAG3) and generates **5 specific Design Elements** for each individual task: *Objective, Role, Input Data, Deliverable, KPI*.
+2.  **Methodology Layer:** Retrieves expert methods from a vector database (RAG3) and generates **7 specific Design Elements** for each individual task: *Goal & Deliverable, Consulting Tool, Roles & Participants, Venue, Consulting Material, DoD & KPIs, Timeline*.
 
 ## 4. Key Innovations
-*   **The 5 Design Elements:** A proprietary format that translates vague business goals into machine-executable agent instructions.
+*   **The 7 Design Elements:** A proprietary format that translates vague business goals into machine-executable agent instructions.
 *   **RAG3 Knowledge Base:** A specialised library of thousands of consulting methods, indexed by industry and complexity, allowing ACI to act like a senior partner with 30 years of experience.
 *   **Feedback Loop:** ACI presents its plan to the human user for validation *before* execution and learns from every correction.
 

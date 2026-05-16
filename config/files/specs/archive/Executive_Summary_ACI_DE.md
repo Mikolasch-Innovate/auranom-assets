@@ -33,12 +33,14 @@ Projekt-Planung ist manuell & statisch:
 - Success KPIs
 - Resource Requirements
 
-**5 Design Elements pro Task:**
-1. Objective
-2. Required Role
-3. Input Data
-4. Deliverable
-5. Success KPIs
+**7 Designelemente pro Task:**
+1. Ziel & Deliverable
+2. Beratungstool
+3. Rollen & Teilnehmer
+4. Räumlichkeiten
+5. Beratungsmaterial
+6. DoD & KPIs
+7. Zeitlicher Ablauf
 
 ---
 

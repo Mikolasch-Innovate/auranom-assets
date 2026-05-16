@@ -33,12 +33,14 @@ Project planning is manual and static:
 - Success KPIs
 - Resource Requirements
 
-**5 Design Elements per Task:**
-1. Objective
-2. Required Role
-3. Input Data
-4. Deliverable
-5. Success KPIs
+**7 Design Elements per Task:**
+1. Goal & Deliverable
+2. Consulting Tool
+3. Roles & Participants
+4. Venue
+5. Consulting Material
+6. DoD & KPIs
+7. Timeline
 
 ---
 

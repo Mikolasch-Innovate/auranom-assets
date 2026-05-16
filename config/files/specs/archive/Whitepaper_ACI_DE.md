@@ -15,10 +15,10 @@ Beratung ist nicht „one size fits all". Ein Startup braucht einen anderen Ansa
 ## 3. Die Lösung: Dynamische Prozessgenerierung
 ACI nutzt ein 2-Stage Decision Engine:
 1.  **Strategy Layer:** Wählt das Projektmanagement-Modell (z.B. „Agile Scrum" vs. „Regulatory Waterfall").
-2.  **Methodology Layer:** Ruft Expert Methods aus einer Vector Database (RAG3) auf und generiert **5 spezifische Design Elements** für jede einzelne Task: *Objective, Role, Input Data, Deliverable, KPI*.
+2.  **Methodology Layer:** Ruft Expert Methods aus einer Vector Database (RAG3) auf und generiert **7 spezifische Designelemente** für jede einzelne Task: *Ziel & Deliverable, Beratungstool, Rollen & Teilnehmer, Räumlichkeiten, Beratungsmaterial, DoD & KPIs, Zeitlicher Ablauf*.
 
 ## 4. Schlüssel-Innovationen
-*   **Die 5 Design Elements:** Ein proprietäres Format, das vage Business Goals in machine-executable Agenten-Instruktionen übersetzt.
+*   **Die 7 Designelemente:** Ein proprietäres Format, das vage Business Goals in machine-executable Agenten-Instruktionen übersetzt.
 *   **RAG3 Knowledge Base:** Eine spezialisierte Bibliothek von tausenden Beratungs-Methoden, indexiert nach Industrie und Komplexität, die ACI wie einen Senior Partner mit 30 Jahren Erfahrung agieren lässt.
 *   **Feedback Loop:** ACI präsentiert seinen Plan dem menschlichen Nutzer zur Validierung *vor* Ausführung und lernt von jeder Korrektur.
 
